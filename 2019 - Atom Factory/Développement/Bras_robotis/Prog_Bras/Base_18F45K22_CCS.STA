@@ -1,0 +1,56 @@
+
+ROM used:   1106/32768 (3%)
+            1106/32768 (3%) including unused fragments
+
+            0.6 Average locations per line
+            7.1 Average locations per statement
+
+RAM used:   225/1536 (15%) at main() level
+            243/1536 (16%) worst case
+
+Stack used: 2 worst case (1 in main + 1 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  557   156 100  Base_18F45K22_CCS.c
+ 1024     0   0  C:\Program Files (x86)\PICC\devices\18F45K22.h
+  412     0   0  18FK_register.h
+----- -----
+ 1993   156 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   2    1             @delay_ms1
+0     26   1    1             @delay_us1
+0      8   0    0             @PUTCHARI_BIU_1
+0    350  16    1    141  2.2  main
+0     24   1    0    115  1.7  Init_uC
+0     90   4    3    461  6.6  RX_isr
+0     46   2    6    176  3.3  Move_speed
+0    180   8    8    476  5.0  Receive_data
+0     68   3    5    409  3.1  Read_data
+0     90   4    6    572  4.7  Envoyer_instruction
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               7
+    Statements              156
+    Comments                492
+    Volume (V)              3521
+    Difficulty (D)          26.5
+    Effort to implement (E) 93238
+    Time to implement (T)   1 hours, 26 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   8
+    Maintainability (MI)    109
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000BC   182  0  
+000BE-07FFE   920  31658  
+
+
+

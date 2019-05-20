@@ -1,0 +1,19 @@
+TARGET 3001 : description d'un plan de perçage : 
+Liste des diamètres de perçage pour le projet N:\Professionnel\Ecole\Électronique\Projet R0B1\Hardware\R0B1.T3001.
+Attention, le plan de perçage doit être imprimé directement.
+Si des pastilles, des vias ou des axes de perçage ont été entre
+ temps, ajoutés ou supprimés, la liste des diamètres de perçage 
+et le plan de perçage ne peuvent pas être conformes !
+
+Vous avez besoin de 5 forets de perçage : 
+
+   21 x 0,800 mm (31,5 mil): Triangle vide.
+   52 x 1,000 mm (39,4 mil): Point.
+    4 x 1,100 mm (43,3 mil): X.
+    2 x 2,500 mm (98,4 mil): Etoile.
+    1 x 3,200 mm (126,0 mil): Croix.
+
+
+Il y a au total 80 trous de perçage.
+
+Fin de la liste.

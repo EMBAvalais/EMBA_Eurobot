@@ -1,0 +1,325 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     lcdline
+005-014 test
+015-017 stat
+018-019 @sprintf_string
+01A-01D @SPI_XFER_1_32.P1
+01A     @PSTRINGCN_887.P2
+01A-01B Read_etat_arduino.value
+01A     @PRINTF_U_887.P1
+01A     Write_cmd_arduino.cmd
+01A     lcd_init.i
+01A     MAIN.@SCRATCH1
+01A     @PSTRINGC_887.@SCRATCH1
+01B     Write_cmd_arduino.taille
+01B     @PRINTF_U_887.P1
+01B     lcd_init.@SCRATCH1
+01B     MAIN.@SCRATCH2
+01B     @PSTRINGC_887.@SCRATCH2
+01B     @PSTRINGCN_887.@SCRATCH1
+01C     Read_etat_arduino.arduino_etat
+01C-01D Write_cmd_arduino.data
+01C     @DIV88.P1
+01C     MAIN.@SCRATCH3
+01C     @PSTRINGCN_887.@SCRATCH2
+01D     lcd_putc.c
+01D     @DIV88.P1
+01D     Read_etat_arduino.@SCRATCH1
+01D     MAIN.@SCRATCH4
+01E     @delay_ms1.P1
+01E     lcd_gotoxy.x
+01E     Write_cmd_arduino.boucle
+01E     Read_etat_arduino.@SCRATCH2
+01E     @DIV88.@SCRATCH1
+01F     lcd_gotoxy.y
+01F     Write_cmd_arduino.crc
+01F     Read_etat_arduino.@SCRATCH3
+020     lcd_gotoxy.address
+020     Write_cmd_arduino.@SCRATCH1
+021     lcd_send_byte.address
+022     lcd_send_byte.n
+023     lcd_read_byte.data
+023     lcd_send_byte.@SCRATCH1
+F38     ANSELA
+F39     ANSELB
+F3A     ANSELC
+F3B     ANSELD
+F3C     ANSELE
+F3D     PMD2
+F3E     PMD1
+F3F     PMD0
+F40     VREFCON2
+F41     VREFCON1
+F42     VREFCON0
+F43     CTMUICON
+F44     CTMUCONL
+F45     CTMUCONH
+F46     SRCON1
+F47     SRCON0
+F48     CCPTMRS1
+F49     CCPTMRS0
+F4A     T6CON
+F4B     PR6
+F4C     TMR6
+F4D     T5GCON
+F4E     T5CON
+F4F     TMR5L
+F50     TMR5H
+F51     T4CON
+F52     PR4
+F53     TMR4
+F54     CCP5CON
+F55     CCPR5L
+F55     CCP_5
+F55     CCP_5_LOW
+F56     CCPR5H
+F56     CCP_5_HIGH
+F57     CCP4CON
+F58     CCP_4_LOW
+F58     CCP_4
+F58     CCPR4L
+F59     CCP_4_HIGH
+F59     CCPR4H
+F5A     PSTR3CON
+F5B     ECCP3AS
+F5C     PWM3CON
+F5D     CCP3CON
+F5E     CCP_3
+F5E     CCP_3_LOW
+F5E     CCPR3L
+F5F     CCPR3H
+F5F     CCP_3_HIGH
+F60     SLRCON
+F61     WPUB
+F62     IOCB
+F63     PSTR2CON
+F64     ECCP2AS
+F65     PWM2CON
+F66     CCP2CON
+F67     CCPR2L
+F67     CCP_2
+F67     CCP_2_LOW
+F68     CCP_2_HIGH
+F68     CCPR2H
+F69     SSP2CON3
+F6A     SSP2MSK
+F6B     SSP2CON2
+F6C     SSP2CON1
+F6D     SSP2STAT
+F6E     SSP2ADD
+F6F     SSP2BUF
+F70     BAUDCON2
+F71     RCSTA2
+F72     TXSTA2
+F73     TXREG2
+F74     RCREG2
+F75     SPBRG2
+F76     SPBRGH2
+F77     CM2CON1
+F78     CM2CON0
+F78.6   C2OUT
+F79     CM1CON0
+F79.6   C1OUT
+F7A     PIE4
+F7B     PIR4
+F7C     IPR4
+F7D     PIE5
+F7E     PIR5
+F7F     IPR5
+F80     PORTA
+F80.5   CS
+F81     PORTB
+F82     PORTC
+F83     PORTD
+F84     lcd
+F84     PORTE
+F89     LATA
+F8A     LATB
+F8B     LATC
+F8C     LATD
+F8D     LATE
+F92     TRISA
+F93     TRISB
+F94     TRISC
+F95     TRISD
+F96     TRISE
+F9B     OSCTUNE
+F9C     HLVDCON
+F9D     PIE1
+F9E     PIR1
+F9F     IPR1
+FA0     PIE2
+FA1     PIR2
+FA2     IPR2
+FA3     PIE3
+FA4     PIR3
+FA5     IPR3
+FA6     EECON1
+FA7     EECON2
+FA8     EEDATA
+FA9     EEADR
+FAB     RCSTA1
+FAC     TXSTA1
+FAD     TXREG1
+FAE     RCREG1
+FAF     SPBRG1
+FB0     SPBRGH1
+FB1     T3CON
+FB2     TMR3L
+FB3     TMR3H
+FB4     T3GCON
+FB6     ECCP1AS
+FB7     PWM1CON
+FB8     BAUDCON1
+FB9     PSTR1CON
+FBA     T2CON
+FBB     PR2
+FBC     TMR2
+FBD     CCP1CON
+FBE     CCPR1L
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FBF     CCPR1H
+FC0     ADCON2
+FC1     ADCON1
+FC2     ADCON0
+FC3     ADRESL
+FC4     ADRESH
+FC5     SSP1CON2
+FC6     SSP1CON1
+FC7     SSP1STAT
+FC8     SSP1ADD
+FC9     SSP1BUF
+FCA     SSP1MSK
+FCB     SSP1CON3
+FCC     T1GCON
+FCD     T1CON
+FCE     TMR1L
+FCF     TMR1H
+FD0     RCON
+FD1     WDTCON
+FD2     OSCCON2
+FD3     OSCCON
+FD5     T0CON
+FD6     TMR0L
+FD7     TMR0H
+FD8     STATUS
+FD9     FSR2L
+FDA     FSR2H
+FDB     PLUSW2
+FDC     PREINC2
+FDD     POSTDEC2
+FDE     POSTINC2
+FDF     INDF2
+FE0     BSR
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1     FSR1L
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE2     FSR1H
+FE3     PLUSW1
+FE4     PREINC1
+FE5     POSTDEC1
+FE6     POSTINC1
+FE7     INDF1
+FE8     WREG
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9     FSR0L
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FEA     FSR0H
+FEB     PLUSW0
+FEC     PREINC0
+FED     POSTDEC0
+FEE     POSTINC0
+FEF     INDF0
+FF0     INTCON3
+FF1     INTCON2
+FF2     INTCON
+FF3     PRODL
+FF4     PRODH
+FF5     TABLAT
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+FF6     TBLPTRL
+FF7     TBLPTRH
+FF8     TBLPTRU
+FF9     PCL
+FFA     PCLATH
+FFB     PCLATU
+FFC     STKPTR
+FFD     TOSL
+FFE     TOSH
+FFF     TOSU
+
+ROM Allocation:
+000004  LCD_INIT_STRING.call
+000014  LCD_INIT_STRING.data
+000018  @const920.call
+00003A  @const930.call
+000050  @const932.call
+000062  @const915.call
+00006C  @const921.call
+000078  @const931.call
+000084  @const933.call
+000090  init_uc
+0000A2  @delay_ms1
+0000C8  lcd_read_byte
+0000E8  lcd_send_byte
+00011E  lcd_init
+000150  lcd_gotoxy
+00017C  lcd_putc
+0001C4  @PSTRINGC_887
+0001E6  Write_cmd_arduino
+00026C  Read_etat_arduino
+0002D2  @PSTRINGCN_887
+0002F0  @DIV88
+000318  @PRINTF_U_887
+00037E  @cinit1
+00037E  MAIN
+0003AC  @cinit2
+
+Project Directory:
+    H:\data\programmation\SPI arduino\spi arduino.X\
+
+Project Files:
+    main.c                                                  [21-févr.-19 09:09  CRC=D2965C43]
+    C:\Program Files (x86)\PICC\devices\18F45k22.h          [21-juil.-17 12:45  CRC=5EAC2226]
+    18F45K22_register.h                                     [10-oct.-18 11:34  CRC=353B20E9]
+    lcd216_8.c                                              [15-nov.-06 08:59  CRC=6C2FDF28]
+
+Source signature=3EDD5DA2
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=7D87
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F45K22
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+    Predefined symbols:
+       #define __18F45K22 1
+
+Output Files:
+    XREF file:   build\default\production\main.xsym
+    Errors:      build\default\production\main.err
+    Ext Symbols: build\default\production\main.esym
+    INHX32:      build\default\production\main.hex
+    Symbols:     build\default\production\main.sym
+    List:        build\default\production\main.lst
+    Debug/COFF:  build\default\production\main.cof
+    Project:     main.ccspjt
+    Call Tree:   build\default\production\main.tre
+    Statistics:  build\default\production\main.STA

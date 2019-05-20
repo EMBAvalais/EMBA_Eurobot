@@ -1,0 +1,1101 @@
+CCS PCH C Compiler, Version 5.074, 38375               17-déc.-18 15:00
+
+               Filename:   E:\Années\2019 - Atom Factory\Développement\Bras_robotis\Prog_Bras\Base_18F45K22_CCS.lst
+
+               ROM used:   1106 bytes (3%)
+                           Largest free fragment is 31658
+               RAM used:   225 (15%) at main() level
+                           243 (16%) worst case
+               Stack used: 2 locations (1 in main + 1 for interrupts)
+               Stack size: 30
+
+*
+0000:  GOTO   02F8
+*
+0008:  NOP   
+000A:  NOP   
+000C:  NOP   
+000E:  NOP   
+0010:  NOP   
+0012:  NOP   
+0014:  NOP   
+0016:  NOP   
+0018:  MOVWF  04
+001A:  MOVFF  FD8,05
+001E:  MOVFF  FE0,06
+0022:  MOVLB  0
+0024:  MOVFF  FE9,0C
+0028:  MOVFF  FEA,07
+002C:  MOVFF  FE1,08
+0030:  MOVFF  FE2,09
+0034:  MOVFF  FD9,0A
+0038:  MOVFF  FDA,0B
+003C:  MOVFF  FF3,12
+0040:  MOVFF  FF4,13
+0044:  MOVFF  FFA,14
+0048:  MOVFF  FF5,15
+004C:  MOVFF  FF6,16
+0050:  MOVFF  FF7,17
+0054:  MOVFF  00,0E
+0058:  MOVFF  01,0F
+005C:  MOVFF  02,10
+0060:  MOVFF  03,11
+0064:  BTFSS  F9D.5
+0066:  GOTO   0070
+006A:  BTFSC  F9E.5
+006C:  GOTO   0172
+0070:  MOVFF  0E,00
+0074:  MOVFF  0F,01
+0078:  MOVFF  10,02
+007C:  MOVFF  11,03
+0080:  MOVFF  0C,FE9
+0084:  MOVFF  07,FEA
+0088:  BSF    07.7
+008A:  MOVFF  08,FE1
+008E:  MOVFF  09,FE2
+0092:  MOVFF  0A,FD9
+0096:  MOVFF  0B,FDA
+009A:  MOVFF  12,FF3
+009E:  MOVFF  13,FF4
+00A2:  MOVFF  14,FFA
+00A6:  MOVFF  15,FF5
+00AA:  MOVFF  16,FF6
+00AE:  MOVFF  17,FF7
+00B2:  MOVF   04,W
+00B4:  MOVFF  06,FE0
+00B8:  MOVFF  05,FD8
+00BC:  RETFIE 0
+.................... /*========================================================================== 
+.................... ====               EMVs - Ecole des métiers du Valais 
+.................... ============================================================================ 
+.................... ====                     Programmation MPLAB IDE 
+.................... ====                     --------------------------- 
+.................... ====------------------------------------------------------------------------ 
+.................... ==== Nom du projet de programme        	: Prog_Bras 
+.................... ==== Langage de programmation utilisé  	: c 
+.................... ==== Version							: 1.0 
+.................... ====------------------------------------------------------------------------ 
+.................... ==== Créateur (Nom, Prénom)            	: Thurre Florian 
+.................... ==== Classe                            	: EMVs-EL 3B 
+.................... ==== Date de création                  	: 21.01.2015 
+.................... ====------------------------------------------------------------------------ 
+.................... ==== Description succincte du programme: 
+.................... ==== ---------------------------------- 
+.................... ==== Ce programme gère la programmation du bras à servomoteurs série 
+.................... ==== Il contrôle: 
+.................... ====  			- en entrée, les trois dip switchs sur RC1 à RC3 
+.................... ====			- en sortie, les trois LEDs RD0 à RD2 
+.................... ====			- en entrées et sorties, la communication aux servomoteurs 
+.................... ===========================================================================*/ 
+....................  
+.................... #include <18F45K22.h> 
+.................... //////////// Standard Header file for the PIC18F45K22 device //////////////// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... ////        (C) Copyright 1996, 2014 Custom Computer Services          //// 
+.................... //// This source code may only be used by licensed users of the CCS C  //// 
+.................... //// compiler.  This source code may only be distributed to other      //// 
+.................... //// licensed users of the CCS C compiler.  No other use, reproduction //// 
+.................... //// or distribution is permitted without written permission.          //// 
+.................... //// Derivative programs created using this software in object code    //// 
+.................... //// form are not restricted in any way.                               //// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... #device PIC18F45K22 
+....................  
+.................... #list 
+....................  
+.................... #include "18FK_register.h" 
+.................... #list 
+....................  
+....................  
+.................... #device ICD=TRUE 
+.................... #DEVICE HIGH_INTS=TRUE 
+.................... #use delay(clock=20000000) 
+*
+01E4:  CLRF   FEA
+01E6:  MOVLW  E1
+01E8:  MOVWF  FE9
+01EA:  MOVF   FEF,W
+01EC:  BZ    0208
+01EE:  MOVLW  06
+01F0:  MOVWF  01
+01F2:  CLRF   00
+01F4:  DECFSZ 00,F
+01F6:  BRA    01F4
+01F8:  DECFSZ 01,F
+01FA:  BRA    01F2
+01FC:  MOVLW  7B
+01FE:  MOVWF  00
+0200:  DECFSZ 00,F
+0202:  BRA    0200
+0204:  DECFSZ FEF,F
+0206:  BRA    01EE
+0208:  RETURN 0
+*
+0212:  MOVLW  03
+0214:  SUBWF  xE9,F
+0216:  BNC   022A
+0218:  CLRF   FEA
+021A:  MOVLW  E9
+021C:  MOVWF  FE9
+021E:  MOVF   FEF,W
+0220:  BZ    022A
+0222:  BRA    0226
+0224:  BRA    0226
+0226:  DECFSZ FEF,F
+0228:  BRA    0224
+022A:  RETURN 0
+.................... #fuses NOWDT, WDT128, HSH, NOPLLEN, NOBROWNOUT, WDT_SW, NOLVP, NOXINST, DEBUG	// fuses valable pour le PIC18F45K22 
+.................... #use rs232(baud=115200,parity=N,xmit=PIN_C6,rcv=PIN_C7,bits=8,stream=PORT1) 
+*
+020A:  BTFSS  F9E.4
+020C:  BRA    020A
+020E:  MOVWF  FAD
+0210:  RETURN 0
+.................... //#use rs232(baud=1000000,parity=N,xmit=PIN_C6,rcv=PIN_C7,bits=8,stream=PORT1) 
+....................  
+.................... #bit LED1 = PORTD.0	// Les trois LEDs de signalisation de mon circuit 
+.................... #bit LED2 = PORTD.1 
+.................... #bit LED3 = PORTD.2 
+.................... #bit Direction = PORTC.4	// Permet de choisir si l'on veut transmettre ou 
+.................... 							// recevoir des données des servometeurs (1=TX, 0=RX) 
+.................... // Prototypes des fonctions 
+.................... void Init_uC(void); 
+.................... void Init_Servos(void); 
+.................... void Desactiver_status_return(void); 
+.................... void Servo_goal_position(int ID, int16 deg); 
+.................... void Move_speed(int16 speed); 
+.................... void Move_speed(int ID, int16 speed); 
+.................... void Envoyer_instruction(int ID,int nbr_param,int instruction,int param1,int param2); 
+.................... void set_pos_servos(int number); 
+.................... int1 Send_Sequence(void); 
+.................... void Receive_data(); 
+.................... void Read_data(int ID,int instruction,int param1,int param2); 
+.................... void Reset_motor(int id); 
+.................... void Ask_Positions(); 
+....................  
+.................... // Variables globales 
+.................... int16 present_pos[5] = {0, 0, 50, 0, 0}; 
+.................... int16 present_pos2[5] = {0, 0, 50, 0, 0}; 
+....................  
+....................  
+.................... int i = 0;	// Variable qui permet de faire des incrémentations dans des boucles for 
+.................... int16 position=0;	// Variable qui contient la valeur de la position désirée de servo 
+.................... int16 position_servos[6] = {0};	// Variable qui garde les valeurs des positions des servos 
+.................... int8 ID_servos[6] = {1, 17, 9, 3, 14,0}; 
+.................... int checksum = 0xFF;	// Variable qui contient 0xFF - les valeurs envoyées au servomoteur 
+.................... int16 dataReceived[] = {0}; 
+.................... int16 new_data[8] = {0}; 
+.................... int1 receive_done = 0; 
+.................... int8 i_data; 
+....................  
+....................  
+.................... int index; 
+.................... int8 Etat_Ask_Positions = 0; 
+.................... int8 Etat_Send_Sequence = 0; 
+.................... int1 ready_to_ask = 1; 
+.................... int8 i_id = 0; 
+....................  
+....................  
+.................... enum{id, angle, wait}; 
+....................  
+.................... int8 tab_id[5] = {1,2,9,3,14}; 
+.................... int16 tab_pos[][5] = {{100,80,0,150,120}, {200,150,150,150,150}, {150,80,200,150,120}, {120,80,200,90,120}, {180,80,200,210,120}, {225,80,0,150,120}, {225,150,150,150,150}, {225,80,0,150,120}, {180,90,200,210,120}, {150,80,200,150,120}, {150,80,0,150,120}}; 
+.................... int16 tab_sequence[][3] = {{14,400,0},{2,514,1},{9,250,2}}; 
+....................  
+.................... void main(void) 
+*
+02F8:  CLRF   FF8
+02FA:  BCF    F9F.5
+02FC:  BSF    FD0.7
+02FE:  BSF    07.7
+0300:  BSF    FB8.3
+0302:  MOVLW  2A
+0304:  MOVWF  FAF
+0306:  MOVLW  00
+0308:  MOVWF  FB0
+030A:  MOVLW  A6
+030C:  MOVWF  FAC
+030E:  MOVLW  90
+0310:  MOVWF  FAB
+0312:  CLRF   2D
+0314:  CLRF   2F
+0316:  CLRF   2E
+0318:  SETF   42
+031A:  BCF    55.0
+031C:  CLRF   58
+031E:  CLRF   59
+0320:  BSF    55.1
+0322:  CLRF   5A
+0324:  MOVLB  F
+0326:  CLRF   x38
+0328:  CLRF   x39
+032A:  CLRF   x3A
+032C:  CLRF   x3B
+032E:  CLRF   x3C
+0330:  CLRF   F77
+0332:  CLRF   F78
+0334:  CLRF   F79
+0336:  BRA    03E2
+0338:  DATA 04,40
+033A:  DATA 19,00
+033C:  DATA 01,80
+033E:  DATA 32,09
+0340:  DATA C0,00
+0342:  DATA 01,80
+0344:  DATA 32,05
+0346:  DATA C0,00
+0348:  DATA 0C,40
+034A:  DATA 30,00
+034C:  DATA 06,80
+034E:  DATA 01,11
+0350:  DATA 09,03
+0352:  DATA 0E,00
+0354:  DATA 12,40
+0356:  DATA 43,00
+0358:  DATA 85,00
+035A:  DATA 5B,01
+035C:  DATA 02,09
+035E:  DATA 03,0E
+0360:  DATA 64,00
+0362:  DATA 50,00
+0364:  DATA 00,00
+0366:  DATA 96,00
+0368:  DATA 78,00
+036A:  DATA C8,00
+036C:  DATA 96,00
+036E:  DATA 96,00
+0370:  DATA 96,00
+0372:  DATA 96,00
+0374:  DATA 96,00
+0376:  DATA 50,00
+0378:  DATA C8,00
+037A:  DATA 96,00
+037C:  DATA 78,00
+037E:  DATA 78,00
+0380:  DATA 50,00
+0382:  DATA C8,00
+0384:  DATA 5A,00
+0386:  DATA 78,00
+0388:  DATA B4,00
+038A:  DATA 50,00
+038C:  DATA C8,00
+038E:  DATA D2,00
+0390:  DATA 78,00
+0392:  DATA E1,00
+0394:  DATA 50,00
+0396:  DATA 00,00
+0398:  DATA 96,00
+039A:  DATA 78,00
+039C:  DATA E1,00
+039E:  DATA 96,00
+03A0:  DATA 96,00
+03A2:  DATA 96,00
+03A4:  DATA 96,00
+03A6:  DATA E1,00
+03A8:  DATA 50,00
+03AA:  DATA 00,00
+03AC:  DATA 96,00
+03AE:  DATA 78,00
+03B0:  DATA B4,00
+03B2:  DATA 5A,00
+03B4:  DATA C8,00
+03B6:  DATA D2,00
+03B8:  DATA 78,00
+03BA:  DATA 96,00
+03BC:  DATA 50,00
+03BE:  DATA C8,00
+03C0:  DATA 96,00
+03C2:  DATA 78,00
+03C4:  DATA 96,00
+03C6:  DATA 50,00
+03C8:  DATA 00,00
+03CA:  DATA 96,00
+03CC:  DATA 78,00
+03CE:  DATA 0E,00
+03D0:  DATA 90,01
+03D2:  DATA 00,00
+03D4:  DATA 02,00
+03D6:  DATA 02,02
+03D8:  DATA 01,00
+03DA:  DATA 09,00
+03DC:  DATA FA,00
+03DE:  DATA 02,00
+03E0:  DATA 00,00
+03E2:  MOVLW  00
+03E4:  MOVWF  FF8
+03E6:  MOVLW  03
+03E8:  MOVWF  FF7
+03EA:  MOVLW  38
+03EC:  MOVWF  FF6
+03EE:  TBLRD*+
+03F0:  MOVF   FF5,W
+03F2:  MOVWF  00
+03F4:  XORLW  00
+03F6:  BZ    041E
+03F8:  TBLRD*+
+03FA:  MOVF   FF5,W
+03FC:  MOVWF  01
+03FE:  BTFSC  FE8.7
+0400:  BRA    040C
+0402:  ANDLW  0F
+0404:  MOVWF  FEA
+0406:  TBLRD*+
+0408:  MOVFF  FF5,FE9
+040C:  BTFSC  01.6
+040E:  TBLRD*+
+0410:  BTFSS  01.6
+0412:  TBLRD*+
+0414:  MOVFF  FF5,FEE
+0418:  DCFSNZ 00,F
+041A:  BRA    03EE
+041C:  BRA    0410
+041E:  CLRF   FF8
+.................... { 
+.................... 	Init_uC();	// Initialisation des ports utilisés du microcontrôleur 
+0420:  MOVLB  0
+0422:  BRA    01CC
+.................... 	delay_ms(1000); 
+0424:  MOVLW  04
+0426:  MOVWF  xE0
+0428:  MOVLW  FA
+042A:  MOVWF  xE1
+042C:  RCALL  01E4
+042E:  DECFSZ xE0,F
+0430:  BRA    0428
+.................... 	 
+.................... 	Move_speed(50); 
+0432:  CLRF   xE1
+0434:  MOVLW  32
+0436:  MOVWF  xE0
+0438:  BRA    0286
+.................... 	 
+.................... 	 
+.................... 	while(1)	// une boucle infinie 
+.................... 	{ 
+.................... 		Read_data(0x01, 0x02, 0x24, 0x02); 
+043A:  MOVLW  01
+043C:  MOVWF  xE0
+043E:  MOVLW  02
+0440:  MOVWF  xE1
+0442:  MOVLW  24
+0444:  MOVWF  xE2
+0446:  MOVLW  02
+0448:  MOVWF  xE3
+044A:  BRA    02B4
+.................... 		delay_ms(20); 
+044C:  MOVLW  14
+044E:  MOVWF  xE1
+0450:  RCALL  01E4
+0452:  BRA    043A
+.................... 		 
+.................... 		/* 
+.................... 		Send_Sequence(); 
+.................... 		delay_ms(20); 
+....................  		 
+.................... 		 
+.................... 		//Envoyer_instruction(0xFE,0x02,0x04,16,0); 
+.................... 		set_pos_servos(1); 
+.................... 		delay_ms(2000); 
+.................... 		set_pos_servos(0); 
+.................... 		delay_ms(2000); 
+.................... 		 
+.................... 		 
+.................... 		 
+.................... 		 
+.................... 		 
+.................... 		 
+.................... 		 
+.................... 		 
+.................... 		checksum = 0xFF;		// Reset du checksum 
+.................... 		Direction = 1;			// Direction à 1 pour pouvoir envoyer 
+.................... 		putc(0xFF);				// 0xFF pour le start 
+.................... 		putc(0xFF);				// Deuxième 0xFF pour le start 
+.................... 		putc(0x02);				// Envoie de l'id 
+.................... 		putc(0x02);				// Envoie de l'id 
+.................... 		putc(0x01);				// Envoie du nombre de paramètre 
+.................... 		putc(0xFA);				// Envoie du checksum 
+.................... 		delay_us(200); 
+.................... 		Direction = 0;			// Direction à 1 pour pouvoir envoyer 
+.................... 		 
+.................... 		delay_ms(50); 
+.................... 			 
+.................... 		*/ 
+.................... 		 
+.................... 	} 
+.................... } 
+....................  
+0454:  BRA    0454
+.................... /*========================================================================== 
+.................... ==== Fonction:	Init_uC				                                   	==== 
+.................... ==== by FLOTHU 	21.01.2015                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction d'initialisation des ports du uC							==== 
+.................... ==== Pas de paramètres													==== 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Init_uC(void) 
+.................... { 
+.................... 	TRISC= 0b10001110;	// RX input, TX output, Direction output, 3 switchs input 
+*
+01CC:  MOVLW  8E
+01CE:  MOVWF  F94
+.................... 	TRISD= 0b10000000;	// RX input, TX output, 3 LEDs output 
+01D0:  MOVLW  80
+01D2:  MOVWF  F95
+.................... 	LED1 = LED2 = LED3 = 0;		// On éteint les LEDs 
+01D4:  BCF    F83.2
+01D6:  BCF    F83.1
+01D8:  BCF    F83.0
+.................... 	 
+.................... 	enable_interrupts(INT_RDA); 
+01DA:  BSF    F9D.5
+....................  
+.................... 	enable_interrupts(GLOBAL); 
+01DC:  MOVLW  C0
+01DE:  IORWF  FF2,F
+01E0:  GOTO   0424 (RETURN)
+.................... 	 
+.................... } 
+....................  
+.................... void set_pos_servos(int number) 
+.................... { 
+.................... 		for(i=0;i<5;i++)	// Boucle permettant d'envoyer  
+.................... 		{	 
+.................... 			// les 6 instructions aux 6 servos 
+.................... 			Servo_goal_position(tab_id[i], tab_pos[number][i]);	// Envoi de l'instruction 
+.................... 			delay_us(100);	 
+.................... 		}		 
+.................... } 
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Init_Servos			                                   	==== 
+.................... ==== by FLOTHU 	22.01.2015                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction d'initialisation de la position des servos				==== 
+.................... ==== Pas de paramètres													==== 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Init_Servos(void) 
+.................... { 
+.................... 		// d'éviter d'envoyer des instructions inutiles aux servos 
+.................... 		Move_speed(50);	// Vitesse très faible 
+.................... 		 
+.................... 		Envoyer_instruction(0xFE,0x02,0x18,0x01,0x00); 
+.................... 	  
+.................... 		position_servos[0] = 180;	// Moteur 1 à 150 degrés 
+.................... 		position_servos[1] = 180;	// Moteur 2 à 120 degrés 
+.................... 		position_servos[2] = 180;	// Moteur 3 à 120 degrés 
+.................... 		position_servos[3] = 180;	// Moteur 4 à 150 degrés 
+.................... 		position_servos[4] = 180;	// Moteur 5 à 120 degrés 
+.................... 		position_servos[5] = 0;	// Moteur 6 à 150 degrés 
+.................... 		 
+.................... 		for(i=0;i<=4;i=i+1)	// Boucle permettant d'envoyer  
+.................... 		{					// les 6 instructions aux 6 servos 
+.................... 			Servo_goal_position(ID_servos[i], position_servos[i-1]);	// Envoi de l'instruction 
+.................... 			delay_us(100);	 
+.................... 		} 
+.................... 		 
+.................... } 
+....................  
+.................... void Ask_Positions() 
+.................... { 
+.................... 	enum{SEND, WAIT}; 
+.................... 	 
+.................... 	switch(Etat_Ask_Positions) 
+.................... 	{ 
+.................... 		case SEND : 
+.................... 			ready_to_ask = 0; 
+.................... 			Read_data(tab_id[i_id], 0x02, 0x24, 0x02); 
+.................... 			Etat_Ask_Positions = WAIT; 
+.................... 			break; 
+.................... 			 
+.................... 		case WAIT : 
+.................... 			if(ready_to_ask == 1); 
+.................... 			{ 
+.................... 				Etat_Ask_Positions = SEND; 
+.................... 				i_id++; 
+.................... 				 
+.................... 				if(i_id > 4) 
+.................... 				{ 
+.................... 					i_id = 0; 
+.................... 				} 
+.................... 			}		 
+.................... 			break; 
+.................... 	}		 
+.................... 		 
+.................... }	 
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Send_Sequence		                                   	==== 
+.................... ==== by AURRIT 	03.12.2018                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction d'initialisation de la position des servos				==== 
+.................... ==== Pas de paramètres													==== 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... int1 Send_Sequence(void) 
+.................... { 
+.................... 	enum{Send, Ask_Position, Wait, Check_Value}; 
+.................... 	 
+.................... 	switch(Etat_Send_Sequence) 
+.................... 	{ 
+.................... 		case Send : 
+.................... 			Servo_goal_position(tab_sequence[index][id], tab_sequence[index][angle]);	// Envoi de l'instruction 
+.................... 			if(tab_sequence[index][wait] == 1) 
+.................... 			{ 
+.................... 				Etat_Send_Sequence = Ask_Position; 
+.................... 			} 
+.................... 			else if(tab_sequence[index][wait] == 2) 
+.................... 			{ 
+.................... 				index = 0; 
+.................... 				return 1; 
+.................... 			}	 
+.................... 				 
+.................... 			else 
+.................... 			{ 
+.................... 				index++; 
+.................... 			}		 
+.................... 				 
+.................... 			break; 
+.................... 		 
+.................... 		case Ask_Position : 
+.................... 			 
+.................... 			Read_data(tab_sequence[index][id], 0x02, 0x24, 0x02); 
+.................... 			Etat_Send_Sequence = Check_value; 
+.................... 		 
+.................... 			break; 
+.................... 			 
+.................... 		case Wait : 
+.................... 			 
+.................... 			//Read_data(tab_sequence[index][id], 0x02, 0x24, 0x02); 
+.................... 			//delay_ms(5); 
+.................... 			 
+.................... 			if(receive_done > 0) 
+.................... 			{ 
+.................... 				receive_done = 0; 
+.................... 				Etat_Send_Sequence = Check_value; 
+.................... 			}	 
+....................  
+.................... 			break; 
+.................... 			 
+.................... 		case Check_value : 
+.................... 			 
+.................... 			 
+.................... 			int16 position_error = tab_sequence[index][1]-present_pos[tab_sequence[index][0]]; 
+.................... 			if(position_error < 20) 
+.................... 			{ 
+.................... 				index++; 
+.................... 				Etat_Send_Sequence = Send; 
+.................... 			} 
+.................... 			else 
+.................... 			{ 
+.................... 				Etat_Send_Sequence = Ask_Position; 
+.................... 			}	 
+.................... 				 
+.................... 				 
+.................... 	}	 
+.................... 		 
+.................... } 
+....................  
+.................... //------------------------------------------------------------------------------ 
+.................... // Chaque caractrère reçu via le RS232, la routine suivante est exécutée 
+.................... //------------------------------------------------------------------------------ 
+.................... // Cette fonction permet de lire les données reçues via le RS232. Si on n'attend 
+.................... //------------------------------------------------------------------------------ 
+.................... // Aucun paramètre 
+.................... //------------------------------------------------------------------------------ 
+.................... #INT_RDA 
+.................... void RX_isr(void) 
+.................... { 
+.................... 	LED1= 1; 
+*
+0172:  BSF    F83.0
+.................... 	int data = getc();	 
+0174:  BTFSS  F9E.5
+0176:  BRA    0174
+0178:  MOVFF  FAE,EA
+.................... 	new_data[i_data] = data; 
+017C:  BCF    FD8.0
+017E:  RLCF   56,W
+0180:  CLRF   03
+0182:  ADDLW  45
+0184:  MOVWF  FE9
+0186:  MOVLW  00
+0188:  ADDWFC 03,W
+018A:  MOVWF  FEA
+018C:  CLRF   FEC
+018E:  MOVF   FED,F
+0190:  MOVFF  EA,FEF
+.................... 	 
+.................... 	switch(i_data) 
+0194:  MOVF   56,W
+0196:  BZ    01A2
+0198:  XORLW  01
+019A:  BZ    01AC
+019C:  XORLW  06
+019E:  BZ    01BA
+01A0:  BRA    01C2
+.................... 	{ 
+.................... 		case 0: 
+.................... 			if(data == 0xFF) 
+01A2:  INCFSZ xEA,W
+01A4:  BRA    01AA
+.................... 				i_data = 1; 
+01A6:  MOVLW  01
+01A8:  MOVWF  56
+.................... 			break; 
+01AA:  BRA    01C4
+.................... 		 
+.................... 		case 1: 
+.................... 			if(data == 0xFF) 
+01AC:  INCFSZ xEA,W
+01AE:  BRA    01B6
+.................... 				i_data = 2; 
+01B0:  MOVLW  02
+01B2:  MOVWF  56
+01B4:  BRA    01B8
+.................... 			else 
+.................... 				i_data = 0; 
+01B6:  CLRF   56
+.................... 				 
+.................... 			break; 
+01B8:  BRA    01C4
+.................... 			 
+.................... 		case 7: 
+.................... 			i_data = 0; 
+01BA:  CLRF   56
+.................... 			Receive_data(); 
+01BC:  BRA    00BE
+.................... 			ready_to_ask = 1; 
+01BE:  BSF    55.1
+.................... 			break; 
+01C0:  BRA    01C4
+.................... 		 
+.................... 		default: 
+.................... 			i_data++; 
+01C2:  INCF   56,F
+.................... 			break; 
+.................... 	}		 
+.................... 	 
+....................  
+.................... 	 
+.................... 	 
+.................... 	LED1= 0; 
+01C4:  BCF    F83.0
+.................... 	 
+01C6:  BCF    F9E.5
+01C8:  GOTO   0070
+.................... } 
+....................  
+.................... /* ========================================================================= 
+.................... ==== Fonction:	Desactiver_status_return                              	==== 
+.................... ==== by FLOTHU	23.01.2015                                             	==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction qui permet de désactiver tous les status return des servos==== 
+.................... ==== Pas de paramètres													==== 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Desactiver_status_return(void) 
+.................... {								 
+.................... 	for(i=1;i<=18;i++)							//Boucle de 1 à 18 
+.................... 	{ 
+.................... 		Envoyer_instruction(i,0x02,0x10,0,0);	//Envoie des instructions 
+.................... 												//0x10 -> status return 
+.................... 		delay_ms(1);	//Delay pour laisser les moteurs envoyer un status return 
+.................... 	} 											 
+.................... } 
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Servo_goal_position           							==== 
+.................... ==== by FLOTHU	21.01.2015                                 				==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction qui permet de bouger un servo à un angle désiré     		==== 
+.................... ==== Paramètres:	- ID: ID du servomoteur (numéro écrit sur le servo)	==== 
+.................... ====				- deg: angle désiré en degré						==== 
+.................... ====				  min = 0° ; middle = 150° ; max = 300°				==== 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Servo_goal_position(int ID, int16 deg) 
+.................... { 
+.................... 	//position = deg * 3.41;	// conversion angle en degré(0 à 300) --> valeur de 0 à 1023 pour le servo 
+.................... 	position = deg;	// conversion angle en degré(0 à 300) --> valeur de 0 à 1023 pour le servo 
+.................... 	int position_1 = position & 0b0000000011111111;	// Position pour les low bits 
+.................... 	int position_2 = (position & 0b1111111100000000) >> 8;	// Position pour les high bits 
+....................  
+.................... 	Envoyer_instruction(ID,0x03,0x1E,position_1,position_2);	//Envoie des instructions 
+.................... 	delay_us(100);	// Ce delay est nécessaire sinon certains servos ne réagissent pas 
+.................... }	 
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Move_speed                                            	==== 
+.................... ==== by FLOTHU 	21.01.2015                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction qui permet de définir la vitesse de tous les servos      	==== 
+.................... ==== Paramètres:	- speed: valeur entre 0 et 1023 réglant la vitesse	==== 
+.................... ====				  du servo. 0 = max, 1023 = 114 rpm, 300 = 33.3 rpm ====	 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Move_speed(int16 speed) 
+*
+0286:  MOVF   xE0,W
+0288:  MOVWF  xE2
+028A:  CLRF   xE4
+028C:  MOVFF  E1,E3
+.................... {							 
+.................... 	int speed_1 = speed & 0b0000000011111111;			// position pour les low bits 
+.................... 	int speed_2 = (speed & 0b1111111100000000) >> 8;	// position pour les high bits 
+.................... 						 
+.................... 	Envoyer_instruction(0XFE,0x03,0x20,speed_1,speed_2);	// Envoie des instructions																				 
+0290:  MOVLW  FE
+0292:  MOVWF  xE4
+0294:  MOVLW  03
+0296:  MOVWF  xE5
+0298:  MOVLW  20
+029A:  MOVWF  xE6
+029C:  MOVFF  E2,E7
+02A0:  MOVFF  E3,E8
+02A4:  BRA    022C
+.................... 	delay_us(100);	// Ce delay est nécessaire sinon certains servos ne réagissent pas						 
+02A6:  MOVLW  A6
+02A8:  MOVWF  00
+02AA:  DECFSZ 00,F
+02AC:  BRA    02AA
+02AE:  NOP   
+02B0:  GOTO   043A (RETURN)
+.................... 	 
+.................... }	 
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Move_speed                                            	==== 
+.................... ==== by FLOTHU 	21.01.2015                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction qui permet de définir la vitesse d'un seul servo         	==== 
+.................... ==== Paramètres:	- ID: ID du servomoteur (numéro écrit sur le servo)	==== 
+.................... ====				- speed: valeur entre 0 et 1023 réglant la vitesse	==== 
+.................... ====				  du servo. 0 = max, 1023 = 114 rpm, 300 = 33.3 rpm ====	 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Move_speed(int ID, int16 speed) 
+.................... { 
+.................... 	int speed_1 = speed & 0b0000000011111111;			// position pour les low bits 
+.................... 	int speed_2 = (speed & 0b1111111100000000) >> 8;	// position pour les high bits					 
+....................  
+.................... 	Envoyer_instruction(ID,0x03,0x20,speed_1,speed_2);	// Envoi de l'instruction																				 
+.................... 	delay_us(100);	// Ce delay est nécessaire sinon certains servos ne réagissent pas						 
+.................... }	 
+....................  
+....................  
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Receive_data                                           	==== 
+.................... ==== by FLOTHU 	21.01.2015                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction qui permet de définir la vitesse d'un seul servo         	==== 
+.................... ==== Paramètres:	- ID: ID du servomoteur (numéro écrit sur le servo)	==== 
+.................... ====				- speed: valeur entre 0 et 1023 réglant la vitesse	==== 
+.................... ====				  du servo. 0 = max, 1023 = 114 rpm, 300 = 33.3 rpm ====	 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Receive_data() 
+*
+00BE:  MOVLW  FF
+00C0:  BSF    FD8.0
+00C2:  SUBFWB 49,W
+00C4:  MOVWF  xF1
+00C6:  MOVLW  00
+00C8:  SUBFWB 4A,W
+00CA:  MOVWF  xF2
+00CC:  MOVF   4B,W
+00CE:  SUBWF  xF1,F
+00D0:  MOVF   4C,W
+00D2:  SUBWFB xF2,F
+00D4:  MOVF   4D,W
+00D6:  SUBWF  xF1,F
+00D8:  MOVF   4E,W
+00DA:  SUBWFB xF2,F
+00DC:  MOVF   4F,W
+00DE:  SUBWF  xF1,F
+00E0:  MOVF   50,W
+00E2:  SUBWFB xF2,F
+00E4:  MOVF   51,W
+00E6:  SUBWF  xF1,W
+00E8:  MOVWF  xEB
+00EA:  MOVF   52,W
+00EC:  SUBWFB xF2,W
+00EE:  MOVWF  xEC
+.................... { 
+.................... 	int16 checksum = 0xFF - new_data[2] - new_data[3] - new_data[4] - new_data[5] - new_data[6]; 
+.................... 	int16 id_data;  
+....................  
+.................... 	id_data = present_pos[new_data[2]]; 
+00F0:  BCF    FD8.0
+00F2:  RLCF   49,W
+00F4:  MOVWF  02
+00F6:  RLCF   4A,W
+00F8:  MOVWF  03
+00FA:  MOVF   02,W
+00FC:  ADDLW  19
+00FE:  MOVWF  FE9
+0100:  MOVLW  00
+0102:  ADDWFC 03,W
+0104:  MOVWF  FEA
+0106:  MOVFF  FEC,EE
+010A:  MOVF   FED,F
+010C:  MOVFF  FEF,ED
+.................... 	 
+.................... 	if(checksum == new_data[7]) 
+0110:  MOVF   53,W
+0112:  SUBWF  xEB,W
+0114:  BNZ   016C
+0116:  MOVF   54,W
+0118:  SUBWF  xEC,W
+011A:  BNZ   016C
+.................... 	{ 
+.................... 		int16 pos_temp = (new_data[6]<< 8)+new_data[5]; 
+011C:  CLRF   xF1
+011E:  MOVF   4F,W
+0120:  ADDWF  xF1,W
+0122:  MOVWF  xEF
+0124:  MOVF   50,W
+0126:  ADDWFC 51,W
+0128:  MOVWF  xF0
+.................... 		present_pos2[new_data[2]] = pos_temp; 
+012A:  BCF    FD8.0
+012C:  RLCF   49,W
+012E:  MOVWF  02
+0130:  RLCF   4A,W
+0132:  MOVWF  03
+0134:  MOVF   02,W
+0136:  ADDLW  23
+0138:  MOVWF  FE9
+013A:  MOVLW  00
+013C:  ADDWFC 03,W
+013E:  MOVWF  FEA
+0140:  MOVFF  F0,FEC
+0144:  MOVF   FED,F
+0146:  MOVFF  EF,FEF
+.................... 		present_pos[new_data[2]] = pos_temp; 
+014A:  BCF    FD8.0
+014C:  RLCF   49,W
+014E:  MOVWF  02
+0150:  RLCF   4A,W
+0152:  MOVWF  03
+0154:  MOVF   02,W
+0156:  ADDLW  19
+0158:  MOVWF  FE9
+015A:  MOVLW  00
+015C:  ADDWFC 03,W
+015E:  MOVWF  FEA
+0160:  MOVFF  F0,FEC
+0164:  MOVF   FED,F
+0166:  MOVFF  EF,FEF
+.................... 		LED1 = 0; 
+016A:  BCF    F83.0
+.................... 	}	 
+.................... 	 
+.................... 	LED1 = 0; 
+016C:  BCF    F83.0
+016E:  GOTO   01BE (RETURN)
+.................... 	 
+.................... } 
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Envoyer_instruction	                                   	==== 
+.................... ==== by FLOTHU 	21.01.2015                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction qui permet d'envoyer une instruction au servomoteurs		==== 
+.................... ==== Paramètres: 	- ID: correspond à l'ID du servomoteur				==== 
+.................... ====				- instruction: pour lire 0x02						==== 
+.................... ====				- param1: adresse de la valeur qu'on veut lire		==== 
+.................... ====				- param2: longueur de la donnée à lire				==== 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Read_data(int ID,int instruction,int param1,int param2) 
+.................... { 
+.................... 	checksum = 0xFF;		// Reset du checksum 
+*
+02B4:  SETF   42
+.................... 	//disable_interrupts(INT_RDA); 
+.................... 	Direction = 1;			// Direction à 1 pour pouvoir envoyer 
+02B6:  BSF    F82.4
+.................... 	putc(0xFF);				// 0xFF pour le start 
+02B8:  MOVLW  FF
+02BA:  RCALL  020A
+.................... 	putc(0xFF);				// Deuxième 0xFF pour le start 
+02BC:  MOVLW  FF
+02BE:  RCALL  020A
+.................... 	putc(ID);				// Envoie de l'id 
+02C0:  MOVF   xE0,W
+02C2:  RCALL  020A
+.................... 	putc(0x04);	// Envoie du nombre de paramètre 
+02C4:  MOVLW  04
+02C6:  RCALL  020A
+.................... 	putc(instruction);		// Envoie de l'instruction voulu 
+02C8:  MOVF   xE1,W
+02CA:  RCALL  020A
+.................... 	putc(param1);			// Envoie du premier paramètre 
+02CC:  MOVF   xE2,W
+02CE:  RCALL  020A
+.................... 	putc(param2);		// Envoie du deuxième paramètre 
+02D0:  MOVF   xE3,W
+02D2:  RCALL  020A
+.................... 	checksum = checksum - ID - 0x04 - instruction - param1 - param2;	// Calcul du checksum final 
+02D4:  MOVF   xE0,W
+02D6:  SUBWF  42,W
+02D8:  ADDLW  FC
+02DA:  BSF    FD8.0
+02DC:  SUBFWB xE1,W
+02DE:  BSF    FD8.0
+02E0:  SUBFWB xE2,W
+02E2:  BSF    FD8.0
+02E4:  SUBFWB xE3,W
+02E6:  MOVWF  42
+.................... 	 
+.................... 	putc(checksum);			// Envoie du checksum 
+02E8:  MOVF   42,W
+02EA:  RCALL  020A
+.................... 	delay_us(200);			// Delay pour laisser finir l'envoie de la trame 
+02EC:  MOVLW  C8
+02EE:  MOVWF  xE9
+02F0:  RCALL  0212
+.................... 	//enable_interrupts(INT_RDA); 
+.................... 	Direction = 0;			// Direction à 0 pour pouvoir recevoir 
+02F2:  BCF    F82.4
+02F4:  GOTO   044C (RETURN)
+.................... }	 
+....................  
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Envoyer_instruction	                                   	==== 
+.................... ==== by FLOTHU 	21.01.2015                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction qui permet d'envoyer une instruction au servomoteurs		==== 
+.................... ==== Paramètres: 	- ID: correspond à l'ID du servomoteur				==== 
+.................... ====				- nbr_param: nombre de paramètre que l'on passe		==== 
+.................... ====				- instruction: instruction désirée (bouger le servo,==== 
+.................... ====				  changer la vitesse, limite de couple,...)			==== 
+.................... ====				- param1: premier paramètre				 			==== 
+.................... ====				- param2: deuxième paramètre						==== 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+.................... void Envoyer_instruction(int ID,int nbr_param,int instruction,int param1,int param2) 
+.................... { 
+.................... 	checksum = 0xFF;		// Reset du checksum 
+*
+022C:  SETF   42
+....................  
+.................... 	Direction = 1;			// Direction à 1 pour pouvoir envoyer 
+022E:  BSF    F82.4
+.................... 	//disable_interrupts(INT_RDA); 
+.................... 	putc(0xFF);				// 0xFF pour le start 
+0230:  MOVLW  FF
+0232:  RCALL  020A
+.................... 	putc(0xFF);				// Deuxième 0xFF pour le start 
+0234:  MOVLW  FF
+0236:  RCALL  020A
+.................... 	putc(ID);				// Envoie de l'id 
+0238:  MOVF   xE4,W
+023A:  RCALL  020A
+.................... 	putc(nbr_param + 2);	// Envoie du nombre de paramètre 
+023C:  MOVLW  02
+023E:  ADDWF  xE5,W
+0240:  MOVWF  xE9
+0242:  MOVF   xE9,W
+0244:  RCALL  020A
+.................... 	putc(0x03);				// Envoie de l'instruction Write_data 
+0246:  MOVLW  03
+0248:  RCALL  020A
+.................... 	putc(instruction);		// Envoie de l'instruction voulu 
+024A:  MOVF   xE6,W
+024C:  RCALL  020A
+.................... 	putc(param1);			// Envoie du premier paramètre 
+024E:  MOVF   xE7,W
+0250:  RCALL  020A
+.................... 	if(nbr_param == 3)		// Si un deuxième paramètre est nécessaire 
+0252:  MOVF   xE5,W
+0254:  SUBLW  03
+0256:  BNZ   0260
+.................... 	{ 
+.................... 		putc(param2);		// Envoie du deuxième paramètre 
+0258:  MOVF   xE8,W
+025A:  RCALL  020A
+.................... 		checksum = checksum - param2;	// Calcul du checksum avec deuxième paramètre 
+025C:  MOVF   xE8,W
+025E:  SUBWF  42,F
+.................... 	} 
+.................... 	checksum = checksum - ID - nbr_param - 2 - 3 - instruction - param1;	// Calcul du checksum final 
+0260:  MOVF   xE4,W
+0262:  SUBWF  42,W
+0264:  BSF    FD8.0
+0266:  SUBFWB xE5,W
+0268:  ADDLW  FE
+026A:  ADDLW  FD
+026C:  BSF    FD8.0
+026E:  SUBFWB xE6,W
+0270:  BSF    FD8.0
+0272:  SUBFWB xE7,W
+0274:  MOVWF  42
+.................... 	putc(checksum);			// Envoie du checksum 
+0276:  MOVF   42,W
+0278:  RCALL  020A
+.................... 	delay_us(200);			// Delay pour laisser finir l'envoie de la trame 
+027A:  MOVLW  C8
+027C:  MOVWF  xE9
+027E:  RCALL  0212
+.................... 	//enable_interrupts(INT_RDA); 
+.................... 	Direction = 0;			// Direction à 0 pour pouvoir recevoir 
+0280:  BCF    F82.4
+0282:  GOTO   02A6 (RETURN)
+.................... }	 
+....................  
+....................  
+.................... /*========================================================================== 
+.................... ==== Fonction:	Reset_motor 											==== 
+.................... ==== by FLOTHU 	12.02.2015                                       		==== 
+.................... ====--------------------------------------------------------------------==== 
+.................... ==== Fonction qui reset des moteurs s'ils sont beugés     				==== 
+.................... ==== Pas de paramètres													==== 
+.................... ==== Ne retourne rien													==== 
+.................... ============================================================================*/ 
+....................  
+.................... // IMPORTANT: Pour utiliser cette fonction, il faut déconnecter tous  
+.................... // les moteurs et laisser seulement le servo que l'on désire reset 
+.................... void Reset_motor(int id) 
+.................... { 
+.................... 	Direction = 1;				//Direction à 1 pour pouvoir envoyer 
+.................... 	putc(0xFF);					//Envoie de 0xFF pour le start 
+.................... 	putc(0xFF);					//Deuxième 0xFF pour le start 
+.................... 	putc(id);					//Envoie de l'adresse 
+.................... 	putc(0x02);					//Envoie de la longueur des paramètres + 2 (0+2) donc 0x02 
+.................... 	putc(0x06);					//Envoie de l'instruction Reset 
+.................... 	putc(0xF7 - id);			//Envoir du checksum (0xF7 - adress) 
+.................... 	Direction = 0;				//Direction à 0 pour pouvoir recevoir 
+.................... 	delay_ms(20);				//Delay de 20 ms pour laisser le temps de reset 
+.................... 	 
+.................... 	 
+....................  
+.................... 	Direction = 1;				//Direction à 1 pour pouvoir envoyer 
+.................... 	putc(0xFF);					//Envoie de 0xFF pour le start 
+.................... 	putc(0xFF);					//Deuxième 0xFF pour le start 
+.................... 	putc(0x01);					//Envoie de l'adress (0x01), un servo reset prend toujours l'adress 1 
+.................... 	putc(0x04);					//Envoie de la longeur des paramètres + 2 (2+2) donc 0x04 
+.................... 	putc(0x03);					//Envoie de l'instruction Write_data 
+.................... 	putc(0x03);					//Envoie de l'adresse de l'eeprom du servo -> 0x03 
+.................... 	putc(2);					//Envoie de l'adresse que l'on désire avoir 
+.................... 	putc(0xF4 - id);			//Envoie du checksum (0xF4 - adress) 
+.................... 	Direction = 0;				//Direction à 0 pour pouvoir recevoir 
+.................... 	delay_ms(1);				//Delay pour laisser passer le temps de la réception d'une trame 
+.................... 	 
+.................... 	 
+.................... } 
+
+Configuration Fuses:
+   Word  1: E200   HSH NOPLLEN PRIMARY_ON FCMEN IESO
+   Word  2: 1C19   NOPUT NOBROWNOUT BORV19 NOWDT WDT128
+   Word  3: BF00   CCP2C1 PBADEN CCP3B5 HFOFST TIMER3C0 CCP2D2 MCLR
+   Word  4: 0000   NOSTVREN NOLVP NOXINST DEBUG
+   Word  5: C00F   NOPROTECT NOCPB NOCPD
+   Word  6: E00F   NOWRT NOWRTC NOWRTB NOWRTD
+   Word  7: 400F   NOEBTR NOEBTRB
+
+   Some fuses have been forced to be compatible with the ICD debugger.

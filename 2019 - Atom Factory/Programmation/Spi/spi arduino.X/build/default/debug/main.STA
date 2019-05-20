@@ -1,0 +1,72 @@
+
+ROM used:   1644/32768 (5%)
+            1644/32768 (5%) including unused fragments
+
+            1.0 Average locations per line
+            12.5 Average locations per statement
+
+RAM used:   53/1536 (3%) at main() level
+            59/1536 (4%) worst case
+
+Stack used: 5 worst case (4 in main + 1 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  256    72  55  main.c
+ 1024     0   0  C:\Program Files (x86)\PICC\devices\18F45k22.h
+  188     0   0  18F45K22_register.h
+  157    59  45  lcd216_8.c
+----- -----
+ 1625   131 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   1    1             @delay_ms1
+0     20   1    0             @const873
+0     32   1    1    236  2.8  lcd_read_byte
+0     54   2    3    417  3.4  lcd_send_byte
+0     50   2    2    269  4.6  lcd_init
+0     44   1    3    262  6.0  lcd_gotoxy
+0     72   2    1    308  5.0  lcd_putc
+0     54   2    0    207  2.3  init_uc
+0     18   1    0     80  1.8  SSP_isr
+0    108   3    6    351  3.8  Read_etat_arduino
+0    140   4   10    756  8.0  Write_cmd_arduino
+0    444  14    4   1185  4.8  MAIN
+0     10   0    0             @const924
+0     34   1    2             @PSTRINGC_887
+0     10   0    0             @const929
+0     30   1    3             @PSTRINGCN_887
+0     64   2    2             @PRINTF_X_887
+0     34   1    0             @const935
+0     12   0    0             @const936
+0     40   1    3             @DIV88
+0    102   3    2             @PRINTF_U_887
+0     22   1    0             @const943
+0     12   0    0             @const944
+0     18   1    0             @const945
+0     12   0    0             @const946
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               10
+    Statements              131
+    Comments                381
+    Volume (V)              6332
+    Difficulty (D)          40.9
+    Effort to implement (E) 259280
+    Time to implement (T)   4 hours, 0 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   12
+    Maintainability (MI)    89
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-07FFE  1474  31120  
+
+
+

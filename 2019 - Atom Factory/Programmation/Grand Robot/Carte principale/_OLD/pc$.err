@@ -1,0 +1,6 @@
+>>> Warning 203 "main.c" Line 157(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 467(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MULS3232)
+>>> Warning 216 "main.c" Line 467(1,2): Interrupts disabled during call to prevent re-entrancy:  (__SendBackUART)
+*** Error 129 "main.c" Line 467(1,2): File can not be opened for write   N:\Rob gestion adver 6-5-2017\main.sym
+      1 Errors,  3 Warnings.
+Build Failed.

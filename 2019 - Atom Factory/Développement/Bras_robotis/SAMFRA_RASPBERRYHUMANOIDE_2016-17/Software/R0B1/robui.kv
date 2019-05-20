@@ -1,0 +1,66 @@
+#:kivy 1.10.0
+<Menu>:
+	id: Menu
+
+	rows: 4
+	padding: 10
+	spacing: 10
+
+	BoxLayout:
+		Label:
+			id: lblText
+			text: "En Attente"
+
+	BoxLayout:
+		spacing: 10
+
+		Button:
+			id: bntMove1
+			text: "Lancer Move 1"
+			on_press: Menu.StartMouvement("Prog1")
+		Button:
+			id: btnProg1
+			text: "Programmer Move 1"
+			on_press: Menu.ProgMouvement("Prog1", 1)
+		Slider:
+			id: slider1
+			min: 10
+			max: 1000
+			value: 100
+
+	BoxLayout:
+		spacing: 10
+
+		Button:
+			id: bntMove2
+			text: "Lancer Move 2"
+			on_press: Menu.StartMouvement("Prog2")
+		Button:
+			id: btnProg2
+			text: "Programmer Move 2"
+			on_press: Menu.ProgMouvement("Prog2", 2)
+
+		Slider:
+			id: slider2
+			min: 10
+			max: 1000
+			value: 100
+
+	BoxLayout:
+		spacing: 10
+
+		Button:
+			id: bntMove3
+			text: "Lancer Move 3"
+			on_press: Menu.StartMouvement("Prog3")
+
+		Button:
+			id: btnProg3
+			text: "Programmer Move 3"
+			on_press: Menu.ProgMouvement("Prog3", 3)
+
+		Slider:
+			id: slider3
+			min: 10
+			max: 1000
+			value: 100

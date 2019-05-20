@@ -1,0 +1,16 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=DSPIC30F6014A
+CCSVersion=5.016
+Compiler=PCD
+[Target Data]
+FileList=main.c
+[main.c]
+Type=4
+[mru-list]
+1=main.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\;N:\____Carte principale Samy\I+=\;N:\GrandRobot\Code\I+=\;N:\Années\2019 - Atom Factory\Programmation\Grand Robot\GrandRobot26102018\Code\I+=\;E:\Années\2019 - Atom Factory\Programmation\Grand Robot\GrandRobot26102018\Code\I+=\;N:\GrandRobot26102018\Code\I+=\
+[Units]
+Count=1
+1=main (main)

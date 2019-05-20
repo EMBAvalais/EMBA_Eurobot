@@ -1,0 +1,23 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=DSPIC30F6014A
+CCSVersion=5.016
+Compiler=PCD
+[Target Data]
+FileList=main.c
+[main.c]
+Type=4
+[mru-list]
+1=main.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\;D:\programation\Eurobot2015Prog\I+=\;N:\programation\Eurobot2015Prog\I+=\;D:\Ecole\troisième année\Projet\programmation\Eurobot2016Prog\I+=\;D:\Ecole\troisième année\SwissEurobot2016\30_programmation\00_SwissEuroBot\Eurobot2016Prog\I+=\;N:\PititRobot\Eurobot2018\Prog\10_Carte principale\I+=\
+
+[ProjectLog]
+Days=1
+D1=20-05-2017
+D1_L=2
+D1_L1=[45010]Project Opened.
+D1_L2=[45034]Project Closed.
+[Units]
+Count=1
+1=main (main)

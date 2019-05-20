@@ -1,0 +1,21 @@
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 24(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 25(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 29(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 30(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 34(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 35(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 42(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 43(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 46(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 47(2,6): Duplicate #locate
+>>> Warning 203 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.c" Line 462(1,1): Condition always TRUE
+>>> Warning 203 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.c" Line 760(1,1): Condition always TRUE
+>>> Warning 203 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.c" Line 852(1,1): Condition always TRUE
+>>> Warning 208 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.h" Line 51(6,22): Function not void and does not return a value  reinitialisation
+>>> Warning 203 "main.c" Line 152(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 595(1,2): Interrupts disabled during call to prevent re-entrancy:  (__SendBackUART)
+>>> Warning 202 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.h" Line 23(16,33): Variable never used:   soll_vit_rot_zero
+>>> Warning 202 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.c" Line 1251(21,35): Variable never used:   ActualPosition
+      Memory usage:   ROM=47%      RAM=85% - 89%
+      0 Errors,  18 Warnings.
+Build Successful.

@@ -1,0 +1,4 @@
+>>> Warning 203 "main.c" Line 112(1,1): Condition always TRUE
+*** Error 129 "main.c" Line 2966(1,2): File can not be opened for write   N:\PititRobot\Eurobot2018\Prog\10_Carte principale\main.sym
+      1 Errors,  1 Warnings.
+Build Failed.

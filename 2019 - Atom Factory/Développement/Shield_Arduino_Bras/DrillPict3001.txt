@@ -1,0 +1,21 @@
+TARGET 3001 : description d'un plan de perçage : 
+Liste des diamètres de perçage pour le projet E:\Années\2019 - Atom Factory\Développement\Shield_Arduino_Bras\Arduino-Uno-Shield_v3.0.T3001.
+Attention, le plan de perçage doit être imprimé directement.
+Si des pastilles, des vias ou des axes de perçage ont été entre
+ temps, ajoutés ou supprimés, la liste des diamètres de perçage 
+et le plan de perçage ne peuvent pas être conformes !
+
+Vous avez besoin de 7 forets de perçage : 
+
+   25 x 0,600 mm (23,6 mil): Triangle vide.
+    6 x 0,650 mm (25,6 mil): Croix.
+   36 x 0,800 mm (31,5 mil): X.
+   10 x 0,900 mm (35,4 mil): Etoile.
+   86 x 1,000 mm (39,4 mil): Point.
+   15 x 1,100 mm (43,3 mil): Rectangle vide.
+    1 x 3,650 mm (143,7 mil): Rectangle avec Point.
+
+
+Il y a au total 179 trous de perçage.
+
+Fin de la liste.

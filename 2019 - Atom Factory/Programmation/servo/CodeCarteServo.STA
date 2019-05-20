@@ -1,0 +1,50 @@
+
+ROM used:   734/31936 (2%)
+            734/31936 (2%) including unused fragments
+
+            0.5 Average locations per line
+            8.2 Average locations per statement
+
+RAM used:   48/1524 (3%) at main() level
+            49/1524 (3%) worst case
+
+Stack used: 1 worst case (0 in main + 1 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  187    90 100  CodeCarteServo.c
+  792     0   0  ..\..\..\..\Program Files (x86)\PICC\devices\18F2520.h
+  407     0   0  18F_register.h
+----- -----
+ 1386    90 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     36   2    0    277  1.9  Init_uC
+0    168  11    0    904  4.4  TIMER0_isr
+0    252  17    0    729  6.2  MAIN
+0     92   6    1    247  4.0  I2C_isr
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               4
+    Statements              90
+    Comments                195
+    Volume (V)              2862
+    Difficulty (D)          16.5
+    Effort to implement (E) 47238
+    Time to implement (T)   44 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   23
+    Maintainability (MI)    36
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000BC   182  0  
+000BE-07CBE   548  31198  
+
+
+

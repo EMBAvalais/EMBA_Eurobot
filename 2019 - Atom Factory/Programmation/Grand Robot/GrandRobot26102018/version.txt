@@ -1,0 +1,6 @@
+Dans cette version, 
+-le code fonctionne normalement
+-initialisation de la couronne pas effectuée
+-zones interdites fonctionnent, avec marge, avec gestion des bords de la table
+-envoi depuis le pc
+-change de trajet si on bloque un côté 

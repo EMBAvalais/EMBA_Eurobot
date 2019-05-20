@@ -1,0 +1,15 @@
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 24(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 25(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 29(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 30(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 34(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 35(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 42(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 43(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 46(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2017 - MoonVillage\Programmation\Grand robot\90_Carte principale\Carte principale\DSPIC30F_registers.h" Line 47(2,6): Duplicate #locate
+>>> Warning 203 "main.c" Line 146(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 487(1,2): Interrupts disabled during call to prevent re-entrancy:  (__SendBackUART)
+      Memory usage:   ROM=25%      RAM=82% - 85%
+      0 Errors,  12 Warnings.
+Build Successful.

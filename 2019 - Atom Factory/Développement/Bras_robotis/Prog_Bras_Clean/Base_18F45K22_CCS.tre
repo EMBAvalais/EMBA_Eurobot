@@ -1,0 +1,35 @@
+ÀÄBase_18F45K22_CCS
+   ÃÄmain  0/408  Ram=1
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄInit_uC  0/24  Ram=0
+   ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄEnvoyer_instruction  0/94  Ram=6
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÀÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄEnvoyer_instruction  0/94  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄEnvoyer_instruction  0/94  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄEnvoyer_instruction  0/94  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄMove_speed  0/46  Ram=6
+   ³  ³  ÀÄEnvoyer_instruction  0/94  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄRead_data  0/74  Ram=5
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ÀÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ÀÄRX_isr  0/38  Ram=3

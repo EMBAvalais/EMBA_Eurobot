@@ -1,0 +1,6 @@
+>>> Warning 203 "Base_18F45K22_CCS.c" Line 91(1,1): Condition always TRUE
+>>> Warning 207 "Base_18F45K22_CCS.c" Line 205(21,22): Code has no effect
+>>> Warning 202 "Base_18F45K22_CCS.c" Line 64(7,19): Variable never used:   dataReceived
+      Memory usage:   ROM=3%      RAM=15% - 16%
+      0 Errors,  3 Warnings.
+Build Successful.

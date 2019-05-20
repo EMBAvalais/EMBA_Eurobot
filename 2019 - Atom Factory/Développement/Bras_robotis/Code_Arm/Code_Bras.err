@@ -1,0 +1,5 @@
+>>> Warning 203 "Code_Bras.c" Line 317(1,1): Condition always TRUE
+>>> Warning 202 "Code_Bras.c" Line 270(6,19): Variable never used:   current_angle
+      Memory usage:   ROM=34%      RAM=3% - 8%
+      0 Errors,  2 Warnings.
+Build Successful.

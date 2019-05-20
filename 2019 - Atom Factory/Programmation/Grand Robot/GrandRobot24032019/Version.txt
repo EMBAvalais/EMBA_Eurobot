@@ -1,0 +1,4 @@
+Dans cette version du code :
+
+-les zones interdites n'ont pas été testées mais devraient fonctionner
+-les problèmes de transmissions des objectifs depuis le PC ont été résolus

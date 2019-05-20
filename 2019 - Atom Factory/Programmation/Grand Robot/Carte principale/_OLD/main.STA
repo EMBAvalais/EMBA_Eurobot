@@ -1,0 +1,196 @@
+
+ROM used:   24992/98304 (25%)
+            24992/98304 (25%) including unused fragments
+
+            2.7 Average locations per line
+            8.2 Average locations per statement
+
+RAM used:   6626/8102 (82%) at main() level
+            6927/8102 (85%) worst case
+
+Stack used: 112 worst case (50 in main + 62 for interrupts)
+Stack size: 2048
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  488   235   8  main.c
+  977     0   0  C:\Program Files (x86)\PICC\devices\30F6014A.h
+  362     0   0  DSPIC30F_registers.h
+  304   102   3  driver_moteur.c
+   43    22   1  Com_balises.c
+  123    27   1  Init.h
+   72     0   0  data\___data.h
+ 2227   926  31  C:\Program Files (x86)\PICC\drivers\math.h
+ 1352   524  17  C:\Program Files (x86)\PICC\drivers\stdlib.h
+   32     0   0  C:\Program Files (x86)\PICC\drivers\stddef.h
+  435   129   4  C:\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\drivers\ctype.h
+   57     0   0  servomoteur\servomoteur.h
+  130    35   1  servomoteur\servomoteur.c
+   23     0   0  LCD\___LCD.h
+  127    39   1  LCD\___LCD.c
+   54     0   0  Functions.h
+ 1159   517  17  Functions.c
+   64     0   0  Deplacement\___Depl.h
+  745   326  11  Deplacement\___Depl.c
+   34     0   0  PC\___PC.h
+  349   148   5  PC\___PC.c
+----- -----
+ 9185  3030 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     68   0    0             @DIV3232B
+0     20   0    1             @delay_ms1
+0     24   0    1             @I2C_WRITEU_1
+0     42   0    1             @I2C_READU_1
+0    192   0   19   1050  6.2  go_driver_moteur
+0    148   0   15    767  4.6  config_driver_moteur_pid
+0    172   0   19   1001  4.6  config_driver_moteur
+0     90   0    2    207  5.2  driver_moteur
+0     80   0    3    238  4.5  read_driver_moteur
+0    150   0   10    709  5.9  read_pos_moteur
+0     74   0    4    183  2.0  Balise_config_plage
+0     58   0    1    106  1.3  Balise_set_plage
+0     60   0    1    199  3.0  Check_balise
+0    186   0    1    965  3.4  __Init_dsPIC
+0    364   1   17   1124  9.9  CEIL_FLOOR
+0    104   0   58             @FLT
+0     44   0   61             @SFTOI
+0     58   0  127             @ITOF
+0    196   0   58             @MULFF
+0    426   1   58             @ADDFF
+0    132   0    0             @FLT64
+0     94   0    0             @F64TOI64
+0    106   0    0             @I64TOF64
+0    272   1    0             @MULFF64
+0     94   0    0             @F64TOSI64
+0    106   0    0             @SI64TOF64
+0    494   1   50             @ADDFF64
+0     18   0    4     44  1.9  floor
+0     20   0    4     44  1.9  ceil
+0    202   0   58             @DIVFF
+0    264   1   50             @DIVFF64
+0     74   0  127             @SITOF
+0    224   0   18   2097 11.0  sqrt
+0    284   1   30   1377  9.9  sqrt
+0    698   1  115   1209  9.7  cos
+0     60   0    8     39  1.8  sin
+0   1036   2   43   1415  7.8  ASIN_COS
+0     40   0   16     76  2.7  asin
+0     42   0   16     76  2.7  acos
+0     74   0    0             @F48TO64
+0    126   0    0             @DIVS3232A
+0     66   0    0             @MULS3232
+0    500   1   14   1817 10.4  atol
+0     54   0    5    227  4.8  MoveServo
+0     30   0    4    110  4.0  SetServo
+0    150   0    2    444  5.7  CheckServo
+0     70   0    2    246  4.6  __Init_Servos
+0     38   0    0     29  0.8  timer2_isr
+0    148   0    0             @DIV6464B
+0     92   0    8    193  4.8  arrondi_float_signed
+0     64   0   61             @FTOSD
+0     84   0    2    618  6.6  __Afficheur_7segments
+0      8   0    1     52  1.9  __Affichage_Erreur
+0     40   0    2    133  3.5  __resetEEPROM
+0     44   0    0             @NVR_WR_W
+0     58   0    0             @WRITE_EEPROM16
+0     36   0    0     57  1.4  __reset_roboteq
+0     30   0    0             @const2121
+0    508   1    1   1772  9.0  __GetRoboteqPID
+0     20   0    1             @const2124
+0     20   0    1             @const2125
+0     20   0    1             @const2126
+0     20   0    1             @const2127
+0     20   0    1             @const2128
+0     20   0    1             @const2129
+0     22   0    1             @const2130
+0     22   0    1             @const2131
+0     22   0    1             @const2132
+0     22   0    1             @const2133
+0    460   1   20    606  1.9  __SetRoboteqPID
+0     66   0    0             @const2134
+0    182   0    0             @PRINTFU16_115200_5893_5892
+0     58   0    0             @const2138
+0     20   0    0             @const2139
+0    154   0    8    619  8.3  __ReadObjectifs
+0     24   0    1             @READ_EEPROM16
+0    120   0    6    517  8.6  __ReadZones_Interdites
+0    132   0    2    483  4.2  __Action_Writting
+0    822   2    4   5704 11.5  EjectionModule
+0     56   0    1    209  4.0  __Poussage
+0     66   0    1    270  4.6  __Rentrage
+0    132   0    5    635  5.6  Pos_barillet_module_du_fond
+0    112   0    5    506  4.9  Deposage
+0    114   0    5    506  4.9  Ramassage
+0    150   0    5    648  5.4  Ramassage_1module
+0    198   0    2    983  7.2  Ejecte
+0    164   0    0    815  6.5  __GoToZero
+0   1002   2    5   5115 11.8  __Check_action_end
+0     94   0    1    440  4.6  __Check_commande_atteint
+0     18   0    1             @const2241
+0    176   0    6    515  7.8  __Get_amp
+0     18   0    0             @const2244
+0     18   0    0             @const2245
+0    556   1    3   1930  8.8  __Get_enco_value
+0   1044   2   13   1662  9.6  __actual_pos
+0    170   0    0    319  4.5  __Init_pos
+0     88   0    2    308  4.6  __DeplToDo
+0    836   2   31   1343  8.5  __Turn
+0     68   0    0             @F64TO48
+0     34   0    0             @const2260
+0     32   0    0             @const2261
+0    280   1    0             @PRINTFD32_115200_5893_5892
+0   1962   4   61   3822 13.4  __PaP
+0     32   0    0             @const2275
+0     30   0    0             @const2277
+0     36   0    0             @const2279
+0    888   2   29   2202 10.4  __Progress
+0    306   1    0             @PRINTFD64_115200_5893_5892
+0     20   0    0             @const2291
+0     20   0    0             @const2292
+0     34   0    0             @const2293
+0     34   0    0             @const2294
+0      8   0    1     65  1.9  __Nothing
+0    386   1    5   1342  8.0  __LoadObj
+0     66   0    2    166  3.4  RDA2_isr
+0      4   0    1     29  1.2  __Init_UART
+0    376   1    2   2129  9.0  RDA_isr
+0    760   2   17   3337 11.6  __UART_Decode
+0     50   0    0             @const2330
+0    104   0    5    367  6.1  __SendBackUART
+0    124   0   20    539  6.0  __CommDecode
+0   2248   4    1   7805 13.0  MAIN
+0     18   0    1             @const2340
+0     40   0    1             @const2345
+0     28   0    1             @const2346
+0     40   0    1             @const2349
+0     30   0    1             @const2350
+0     18   0    1             @const2351
+0    244   0    0    908  6.8  TIMER1_isr
+0     84   0    0             @DIV3232A
+0     38   0    1     72  2.4  TIMER3_isr
+ Inline         1             @cinit1
+
+Program metrics:
+    Functions               66
+    Statements              3030
+    Comments                3365
+    Volume (V)              116426
+    Difficulty (D)          392.2
+    Effort to implement (E) 45663886
+    Time to implement (T)   704 hours, 41 minutes
+    Est Delivered Bugs (B)  43
+    Cyclomatic Complexity   334
+    Maintainability (MI)    19
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-000FE   252  0  
+00100-0FFFE  24736  40544  
+10000-17FFE     0  32768  
+
+
+

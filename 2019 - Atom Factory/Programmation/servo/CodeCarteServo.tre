@@ -1,0 +1,6 @@
+ÀÄCodeCarteServo
+   ÃÄMAIN  0/252  Ram=0
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÀÄInit_uC  0/36  Ram=0
+   ÃÄTIMER0_isr  0/168  Ram=0
+   ÀÄI2C_isr  0/92  Ram=1

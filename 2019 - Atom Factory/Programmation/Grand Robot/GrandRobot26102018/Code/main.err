@@ -1,0 +1,12 @@
+>>> Warning 208 "N:\Années\2019 - Atom Factory\Programmation\Grand Robot\GrandRobot26102018\Code\Functions.h" Line 47(6,23): Function not void and does not return a value  Panneau_Domotique
+>>> Warning 203 "N:\Années\2019 - Atom Factory\Programmation\Grand Robot\GrandRobot26102018\Code\Functions.c" Line 796(1,1): Condition always TRUE
+>>> Warning 203 "N:\Années\2019 - Atom Factory\Programmation\Grand Robot\GrandRobot26102018\Code\Functions.c" Line 888(1,1): Condition always TRUE
+>>> Warning 208 "N:\Années\2019 - Atom Factory\Programmation\Grand Robot\GrandRobot26102018\Code\Functions.h" Line 51(6,22): Function not void and does not return a value  reinitialisation
+>>> Warning 203 "main.c" Line 160(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 698(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MULS3232)
+>>> Warning 216 "main.c" Line 698(1,2): Interrupts disabled during call to prevent re-entrancy:  (__SendBackUART)
+>>> Warning 202 "N:\Années\2019 - Atom Factory\Programmation\Grand Robot\GrandRobot26102018\Code\Functions.h" Line 23(16,33): Variable never used:   soll_vit_rot_zero
+>>> Warning 202 "N:\Années\2019 - Atom Factory\Programmation\Grand Robot\GrandRobot26102018\Code\Functions.c" Line 1287(21,35): Variable never used:   ActualPosition
+      Memory usage:   ROM=48%      RAM=85% - 93%
+      0 Errors,  9 Warnings.
+Build Successful.

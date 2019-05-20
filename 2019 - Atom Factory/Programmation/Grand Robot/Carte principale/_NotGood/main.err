@@ -1,0 +1,19 @@
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 24(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 25(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 29(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 30(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 34(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 35(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 42(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 43(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 46(2,6): Duplicate #locate
+>>> Warning 238 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\DSPIC30F_registers.h" Line 47(2,6): Duplicate #locate
+>>> Warning 203 "main.c" Line 139(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 572(1,2): Interrupts disabled during call to prevent re-entrancy:  (__SendBackUART)
+>>> Warning 202 "main.c" Line 54(16,34): Variable never used:   TabZonesInterdites
+>>> Warning 202 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.h" Line 22(16,28): Variable never used:   soll_vit_rot
+>>> Warning 202 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.h" Line 29(6,13): Variable never used:   bras_in
+>>> Warning 202 "D:\Années\2019 - Atom Factory\Programmation\Grand Robot\Carte principale\Functions.h" Line 30(6,22): Variable never used:   flag_module_fond
+      Memory usage:   ROM=42%      RAM=85% - 89%
+      0 Errors,  16 Warnings.
+Build Successful.

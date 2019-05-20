@@ -1,0 +1,7 @@
+H:\data\programmation\SPI arduino\spi arduino.X\main.c:102:1:  Warning#208  Function not void and does not return a value  Read_etat_arduino
+H:\data\programmation\SPI arduino\spi arduino.X\main.c:129:15:  Warning#208  Function not void and does not return a value  Write_cmd_arduino
+H:\data\programmation\SPI arduino\spi arduino.X\main.c:167:1:  Warning#203  Condition always TRUE
+H:\data\programmation\SPI arduino\spi arduino.X\main.c:169:1:  Warning#230  String truncated
+      Memory usage:   ROM=4%      RAM=2% - 2%
+      0 Errors,  4 Warnings.
+Build Successful.

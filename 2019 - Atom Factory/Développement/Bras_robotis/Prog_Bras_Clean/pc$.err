@@ -1,0 +1,4 @@
+>>> Warning 203 "Base_18F45K22_CCS.c" Line 78(1,1): Condition always TRUE
+      Memory usage:   ROM=3%      RAM=2% - 3%
+      0 Errors,  1 Warnings.
+Build Successful.

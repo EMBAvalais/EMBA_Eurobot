@@ -1,0 +1,2 @@
+﻿D01-5-02-02/300 = Profilé de base 20x20, sans usinage, 300mm
+D01-5-10-10/300 = Profilé de base 20x20, usinage sur les extrémités, 300mm

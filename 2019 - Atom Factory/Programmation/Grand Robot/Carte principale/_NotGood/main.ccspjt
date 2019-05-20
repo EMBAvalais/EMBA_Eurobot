@@ -1,0 +1,14 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=DSPIC30F6014A
+CCSVersion=5.074
+Compiler=PCD
+[Target Data]
+FileList=main.c
+[main.c]
+Type=4
+[mru-list]
+1=main.c
+[Units]
+Count=1
+1=main (main)

@@ -1,0 +1,75 @@
+
+ROM used:   11060/32768 (34%)
+            11060/32768 (34%) including unused fragments
+
+            2.8 Average locations per line
+            33.0 Average locations per statement
+
+RAM used:   44/1536 (3%) at main() level
+            129/1536 (8%) worst case
+
+Stack used: 4 worst case (4 in main + 0 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  324    77  23  Code_Bras.c
+ 1024     0   0  C:\Program Files (x86)\PICC\devices\18F45K22.h
+  412     0   0  18FK_register.h
+ 2227   258  77  C:\Program Files (x86)\PICC\drivers\math.h
+----- -----
+ 3987   335 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   0    1             @delay_ms1
+0     28   0    1             @delay_us1
+0      8   0    0             @PUTCHARI_BIU_1
+0    836   4   20   1121 10.1  CEIL_FLOOR
+0    118   1   10             @FLT
+0     56   0    4             @SFTOI
+0     54   0    2             @ITOF
+0    242   1   11             @MULFF
+0    618   3   16             @ADDFF
+0     24   0    4     43  2.1  floor
+0     26   0    4     44  1.9  ceil
+0    344   2   16    259  6.9  fmod
+0    346   2   14             @DIVFF
+0    978   4   22   1071  8.0  exp
+0     72   0    2             @SITOF
+0    858   4   25    979 10.0  log
+0    742   3   12    581  7.5  pow
+0    274   1   18    510 10.6  sqrt
+0    828   4   46   1146  9.9  cos
+0    968   4   26   1040  7.9  ASIN_COS
+0     58   0    8     80  3.0  acos
+0   1270   6   21   1082  6.9  atan
+0     28   0    0    158  1.8  Init_uC
+0    134   1    4    465  4.3  Init_Servos
+0    132   1    2    116  2.8  Init_Arm
+0     56   0    9    245  3.6  Servo_goal_position
+0     44   0    6    176  3.3  Move_speed
+0    128   1    9    695  4.7  Envoyer_instruction
+0   1526   7   30   1278  8.1  Get_Atome
+0    222   1    1    183  2.2  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               20
+    Statements              335
+    Comments                661
+    Volume (V)              18649
+    Difficulty (D)          115.1
+    Effort to implement (E) 2145691
+    Time to implement (T)   33 hours, 7 minutes
+    Est Delivered Bugs (B)  6
+    Cyclomatic Complexity   37
+    Maintainability (MI)    114
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  11056  21708  
+
+
+

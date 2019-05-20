@@ -1,0 +1,5 @@
+>>> Warning 208 "N:\____Carte principale Samy\Functions.h" Line 51(6,22): Function not void and does not return a value  reinitialisation
+>>> Warning 203 "main.c" Line 160(1,1): Condition always TRUE
+*** Error 129 "main.c" Line 512(1,2): File can not be opened for write   N:\____Carte principale Samy\main.sym
+      1 Errors,  2 Warnings.
+Build Failed.

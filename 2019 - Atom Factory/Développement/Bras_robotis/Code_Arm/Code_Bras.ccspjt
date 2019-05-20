@@ -1,0 +1,14 @@
+[PROJECT]
+Target=Code_Bras.hex
+Processor_Text=PIC18F45K22
+CCSVersion=5.074
+Compiler=PCH
+[Target Data]
+FileList=Code_Bras.c
+[Code_Bras.c]
+Type=4
+[mru-list]
+1=Code_Bras.c
+[Units]
+Count=1
+1=Code_Bras (main)

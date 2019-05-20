@@ -1,0 +1,14 @@
+[PROJECT]
+Target=CodeCarteServo.hex
+Processor_Text=PIC18F2520
+CCSVersion=5.076
+Compiler=PCH
+[Target Data]
+FileList=CodeCarteServo.c
+[CodeCarteServo.c]
+Type=4
+[mru-list]
+1=CodeCarteServo.c
+[Units]
+Count=1
+1=CodeCarteServo (main)

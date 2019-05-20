@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet R0B1" company="" webLink="" view-date="2017-03-06" view-index="0" gantt-divider-location="467" resource-divider-location="300" version="2.0" locale="fr">
+    <description><![CDATA[Plannification du projet de 3ème année EMVs. R0B1 est un robot humanoïde contrôlé avec un raspberry
+]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="50" order="0"/>
+        <field id="tpd4" name="Date de début" width="25" order="1"/>
+        <field id="tpd5" name="Date de fin" width="23" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="50" order="0"/>
+        <field id="1" name="Rôle par défaut" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="1" tue="1" wed="0" thu="0" fri="0" sat="1"/>
+                <only-show-weekends value="false"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="1" month="1" date="1"/>
+        <date year="1" month="1" date="2"/>
+        <date year="2012" month="4" date="6"/>
+        <date year="2012" month="4" date="8"/>
+        <date year="2012" month="4" date="9"/>
+        <date year="2012" month="5" date="17"/>
+        <date year="2012" month="5" date="27"/>
+        <date year="2012" month="5" date="28"/>
+        <date year="1" month="8" date="1"/>
+        <date year="1" month="12" date="25"/>
+        <date year="1" month="12" date="26"/>
+        <date year="" month="1" date="1"/>
+        <date year="" month="1" date="2"/>
+        <date year="" month="8" date="1"/>
+        <date year="" month="12" date="25"/>
+        <date year="" month="12" date="26"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Documentation du projet" color="#ff3333" meeting="false" start="2017-03-08" duration="42" complete="0" expand="true">
+            <task id="18" name="Cahier des charges" color="#ff6666" meeting="false" start="2017-03-08" duration="6" complete="0" expand="true"/>
+            <task id="19" name="Rapport du projet" color="#ff3333" meeting="false" start="2017-03-08" duration="39" complete="0" expand="true"/>
+            <task id="21" name="Présentation" color="#cc0033" meeting="false" start="2017-05-31" duration="6" complete="0" expand="true"/>
+        </task>
+        <task id="1" name="Hardware" color="#8cb6ce" meeting="false" start="2017-03-22" duration="18" complete="0" expand="true">
+            <task id="16" name="Schématique" color="#33ccff" meeting="false" start="2017-03-22" duration="4" complete="0" expand="true"/>
+            <task id="17" name="Conception du PCB" color="#3399ff" meeting="false" start="2017-03-29" duration="3" complete="0" expand="true"/>
+            <task id="26" name="Test sur plaque d'expérimentation" color="#3366ff" meeting="false" start="2017-03-22" duration="6" complete="0" expand="true"/>
+            <task id="5" name="Montage du PCB" color="#0066ff" meeting="false" start="2017-04-26" duration="1" complete="0" expand="true"/>
+            <task id="20" name="Mesures et dépannage" color="#0033cc" meeting="false" start="2017-04-26" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="13" name="Software" color="#8cb6ce" meeting="false" start="2017-03-08" duration="36" complete="0" expand="true">
+            <task id="25" name="Installation Raspbian" color="#ccffcc" meeting="false" start="2017-03-08" duration="2" complete="0" expand="true"/>
+            <task id="6" name="Architecture software" color="#66ff66" meeting="false" start="2017-03-09" duration="5" complete="0" expand="true"/>
+            <task id="15" name="Interface utilisateur" color="#33ff33" meeting="false" start="2017-03-10" duration="7" complete="0" expand="true"/>
+            <task id="11" name="Communication moteurs" color="#00cc00" meeting="false" start="2017-03-22" duration="4" complete="0" expand="true"/>
+            <task id="12" name="Algorithme de programmation" color="#009900" meeting="false" start="2017-03-23" duration="29" complete="0" expand="true"/>
+        </task>
+        <task id="22" name="Mécanique" color="#8cb6ce" meeting="false" start="2017-03-15" duration="30" complete="0" expand="true">
+            <task id="23" name="Conception 3D" color="#33ffff" meeting="false" start="2017-05-17" duration="3" complete="0" expand="true"/>
+            <task id="10" name="Montage des bras" color="#009999" meeting="false" start="2017-03-15" duration="6" complete="0" expand="true"/>
+            <task id="24" name="Montage du torse" color="#006666" meeting="false" start="2017-05-17" duration="3" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Samy Francelet" function="Default:1" contacts="franceletsamy@gmail.com" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="235" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="119" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="109" visible="true"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

@@ -1,0 +1,22 @@
+>>> Warning 208 "main.c" Line 59(15,32): Function not void and does not return a value  Write_cmd_arduino
+>>> Warning 208 "N:\GrandRobot26102018\Code\Functions.h" Line 43(1,18): Function not void and does not return a value  Read_etat_arduino
+>>> Warning 203 "main.c" Line 168(1,1): Condition always TRUE
+>>> Warning 216 "main.c" Line 744(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MULS3232)
+>>> Warning 216 "main.c" Line 744(1,2): Interrupts disabled during call to prevent re-entrancy:  (__SendBackUART)
+>>> Warning 202 "main.c" Line 40(14,28): Variable never used:   ActualPosition
+>>> Warning 202 "main.c" Line 56(15,21): Variable never used:   points
+>>> Warning 202 "main.c" Line 57(15,23): Variable never used:   solution
+>>> Warning 202 "N:\GrandRobot26102018\Code\data\___data.h" Line 64(16,34): Variable never used:   TIME_SURCHAUFFE_MS
+>>> Warning 202 "N:\GrandRobot26102018\Code\data\___data.h" Line 65(15,36): Variable never used:   Erreur_max_surchauffe
+>>> Warning 202 "N:\GrandRobot26102018\Code\data\___data.h" Line 66(16,29): Variable never used:   Time_ejection
+>>> Warning 202 "N:\GrandRobot26102018\Code\data\___data.h" Line 67(16,34): Variable never used:   Time_ejection_toDo
+>>> Warning 202 "N:\GrandRobot26102018\Code\Functions.h" Line 21(16,33): Variable never used:   soll_vit_rot_zero
+>>> Warning 202 "N:\GrandRobot26102018\Code\Functions.h" Line 22(16,28): Variable never used:   soll_vit_mov
+>>> Warning 202 "N:\GrandRobot26102018\Code\Functions.h" Line 24(6,23): Variable never used:   Sens_rot_Couronne
+>>> Warning 202 "N:\GrandRobot26102018\Code\Functions.h" Line 26(14,25): Variable never used:   Endposition
+>>> Warning 202 "N:\GrandRobot26102018\Code\Functions.h" Line 27(15,28): Variable never used:   Etat_ejection
+>>> Warning 202 "N:\GrandRobot26102018\Code\Functions.h" Line 28(6,14): Variable never used:   bras_out
+>>> Warning 202 "main.c" Line 144(6,20): Variable never used:   Module_inplace
+      Memory usage:   ROM=42%      RAM=85% - 92%
+      0 Errors,  19 Warnings.
+Build Successful.

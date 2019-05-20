@@ -1,0 +1,79 @@
+ÀÄspi arduino
+   ÃÄMAIN  0/444  Ram=4
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄinit_uc  0/54  Ram=0
+   ³  ÃÄlcd_init  0/50  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄ@const873  0/20  Ram=0
+   ³  ³  ÀÄlcd_send_byte  0/54  Ram=3
+   ³  ³     ÀÄlcd_read_byte  0/32  Ram=1
+   ³  ÃÄlcd_gotoxy  0/44  Ram=3
+   ³  ³  ÀÄlcd_send_byte  0/54  Ram=3
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PSTRINGC_887  0/34  Ram=2
+   ³  ³  ÀÄlcd_putc  0/72  Ram=1
+   ³  ³     ÃÄlcd_send_byte  0/54  Ram=3
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³     ÃÄlcd_gotoxy  0/44  Ram=3
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄlcd_send_byte  0/54  Ram=3
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄlcd_send_byte  0/54  Ram=3
+   ³  ³        ÀÄ*
+   ³  ÃÄlcd_gotoxy  0/44  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_887  0/30  Ram=3
+   ³  ³  ÀÄlcd_putc  0/72  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PRINTF_X_887  0/64  Ram=2
+   ³  ³  ÃÄlcd_putc  0/72  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_putc  0/72  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_putc  0/72  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@const935  0/34  Ram=0
+   ³  ÃÄWrite_cmd_arduino  0/140  Ram=10
+   ³  ÃÄRead_etat_arduino  0/108  Ram=6
+   ³  ÃÄlcd_gotoxy  0/44  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_887  0/30  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_887  0/102  Ram=2
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄlcd_putc  0/72  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄlcd_putc  0/72  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_putc  0/72  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_putc  0/72  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄ@const943  0/22  Ram=0
+   ³  ÃÄWrite_cmd_arduino  0/140  Ram=10
+   ³  ÃÄRead_etat_arduino  0/108  Ram=6
+   ³  ÃÄlcd_gotoxy  0/44  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_887  0/30  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_887  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/72  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄ@const945  0/18  Ram=0
+   ³  ÃÄWrite_cmd_arduino  0/140  Ram=10
+   ³  ÃÄRead_etat_arduino  0/108  Ram=6
+   ³  ÃÄlcd_gotoxy  0/44  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_887  0/30  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_887  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/72  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ÀÄSSP_isr  0/18  Ram=0

@@ -1,0 +1,682 @@
+W0      @SCRATCH
+W0L     _RETURN_
+W0 -W3  @DIVS6464.P1
+W0 -W1  @READ_ROM_MEMORY.P2
+W0      @SITOF.P3
+W0 -W1  @DIV3232B.P4
+W0 -W3  @FLT64.P5
+W0 -W2  @FLT48.P6
+W0 -W1  @PRINTFD32_115200_5891_5890.P7
+W0 -W3  @SI64TOF48.P8
+W0 -W1  @PRINTFU32_115200_5891_5890.P9
+W0 -W3  @I64TOF48.P10
+W0 -W2  @MULFF48.P11
+W0 -W1  @MUL3232.P12
+W0 -W3  @F64TOSI64.P13
+W0 -W2  @ADDFF48.P14
+W0      @delay_ms1.P15
+W0 -W1  @DIVS3232A.P16
+W0      @delay_us1.P17
+W0 -W1  @MULS3232.P18
+W0L     @SPRINTF.P19
+W0 -W1  @PRINTFU32_1284.P20
+W0      @ITOF.P21
+W0L     WREG0
+W0 -W2  @MULS4848.P1
+W0 -W2  @DIVS4848.P2
+W0 -W1  @FLT.P3
+W0 -W3  @I64TOF64.P4
+W0 -W2  @F48TOSI64.P5
+W0 -W3  @MULFF64.P6
+W0 -W2  @F48TO64.P7
+W0 -W2  @DIVFF48.P8
+W0 -W1  @MULFF.P9
+W0 -W3  @SI64TOF64.P10
+W0 -W3  @ADDFF64.P11
+W0 -W3  @MULS6464.P12
+W0 -W1  @SFTOI.P13
+W0 -W3  @DIVFF64.P14
+W0 -W3  @F64TOI64.P15
+W0 -W1  @DIVFF.P16
+W0 -W1  @ADDFF.P17
+W1      @SCRATCH
+W1L     @I2C_WRITEU_1.P1
+W1      @WRITE_PACKED_MEMORY.P2
+W1      @READ_PACKED_MEMORY.P3
+W1L     WREG1
+W1L     @I2C_READU_1.P1
+W2 -W3  @MUL3232.P1
+W2 -W3  @DIVS3232A.P2
+W2      @READ_ROM_MEMORY.P3
+W2 -W3  @ADDFF.P4
+W2 -W3  @FLT.P5
+W2      @READ_PACKED_MEMORY.P6
+W2 -W3  @DIVFF.P7
+W2 -W3  @MULFF.P8
+W2 -W3  @DIV3232B.P9
+W2      @WRITE_PACKED_MEMORY.P10
+W2 -W3  @MULS3232.P11
+W2L     WREG2
+W3L     WREG3
+W3      @READ_ROM_MEMORY.P1
+W3 -W5  @MULFF48.P2
+W3 -W5  @ADDFF48.P3
+W3 -W5  @FLT48.P4
+W3      @READ_PACKED_MEMORY.P5
+W3 -W5  @DIVFF48.P6
+W3 -W5  @DIVS4848.P7
+W3      @WRITE_PACKED_MEMORY.P8
+W3 -W5  @MULS4848.P9
+W4 -W7  @DIVFF64.P1
+W4 -W7  @FLT64.P2
+W4 -W7  @MULS6464.P3
+W4      @PRINTFD32_115200_5891_5890.P4
+W4L     WREG4
+W4      @PRINTFU32_115200_5891_5890.P1
+W4 -W7  @MULFF64.P2
+W4 -W7  @ADDFF64.P3
+W4 -W7  @DIVS6464.P4
+W4      @PRINTFU32_1284.P5
+W5L     WREG5
+W6L     WREG6
+W7L     WREG7
+W8L     WREG8
+W9L     WREG9
+W10L    WREG10
+W11L    WREG11
+W12L    WREG12
+W13L    WREG13
+W14L    WREG14
+W15L    WREG15
+020     SPLIM
+022     ACCA
+024     ACCAH
+026     ACCAU
+028     ACCB
+02A     ACCBH
+02C     ACCBU
+02E     PC
+030     PCH
+032     TBLPAG
+034     PSVPAG
+036     RCOUNT
+038     DCOUNT
+03A     DOSTART
+03C     DOSTARTH
+03E     DOEND
+040     DOENDH
+042     SR
+044     CORCON
+046     MODCON
+048     XMODSRT
+04A     XMODEND
+04C     YMODSRT
+04E     YMODEND
+050     XBREV
+052     DISICNT
+080     INTCON1
+082     INTCON2
+084     IFS0
+086     IFS1
+088     IFS2
+08C     IEC0
+08E     IEC1
+090     IEC2
+094     IPC0
+096     IPC1
+098     IPC2
+09A     IPC3
+09C     IPC4
+09E     IPC5
+0A0     IPC6
+0A2     IPC7
+0A4     IPC8
+0A6     IPC9
+0A8     IPC10
+0B0     INTREG
+0C0     CNEN1
+0C2     CNEN2
+0C4     CNPU1
+0C6     CNPU2
+100     TMR1
+102     PR1
+104     T1CON
+105.7   _Tim1On
+106     TMR2
+108     TMR3HLD
+10A     TMR3
+10C     PR2
+10E     PR3
+110     T2CON
+111.7   _Tim2On
+112     T3CON
+113.7   _Tim3On
+114     TMR4
+116     TMR5HLD
+118     TMR5
+11A     PR4
+11C     PR5
+11E     T4CON
+120     T5CON
+140     IC1BUF
+142     IC1CON
+144     IC2BUF
+146     IC2CON
+148     IC3BUF
+14A     IC3CON
+14C     IC4BUF
+14E     IC4CON
+150     IC5BUF
+152     IC5CON
+154     IC6BUF
+156     IC6CON
+158     IC7BUF
+15A     IC7CON
+15C     IC8BUF
+15E     IC8CON
+180     OC1RS
+182     OC1R
+184     OC1CON
+186     OC2RS
+188     OC2R
+18A     OC2CON
+18C     OC3RS
+18E     OC3R
+190     OC3CON
+192     OC4RS
+194     OC4R
+196     OC4CON
+198     OC5RS
+19A     OC5R
+19C     OC5CON
+19E     OC6RS
+1A0     OC6R
+1A2     OC6CON
+1A4     OC7RS
+1A6     OC7R
+1A8     OC7CON
+1AA     OC8RS
+1AC     OC8R
+1AE     OC8CON
+200     I2CRCV
+202     I2CTRN
+204     I2CBRG
+206     I2CCON
+206.7   _GCEN
+207.7   _I2CEN
+208     I2CSTAT
+20A     I2CADD
+20C     U1MODE
+20E     U1STA
+210     U1TXREG
+212     U1RXREG
+214     U1BRG
+216     U2MODE
+218     U2STA
+21A     U2TXREG
+21C     U2RXREG
+21E     U2BRG
+220     SPI1STAT
+222     SPI1CON
+224     SPI1BUF
+226     SPI2STAT
+228     SPI2CON
+22A     SPI2BUF
+240     DCICON1
+242     DCICON2
+244     DCICON3
+246     DCISTAT
+248     TSCON
+24C     RSCON
+250     RXBUF0
+252     RXBUF1
+254     RXBUF2
+256     RXBUF3
+258     TXBUF0
+25A     TXBUF1
+25C     TXBUF2
+25E     TXBUF3
+280     ADCBUF0
+282     ADCBUF1
+284     ADCBUF2
+286     ADCBUF3
+288     ADCBUF4
+28A     ADCBUF5
+28C     ADCBUF6
+28E     ADCBUF7
+290     ADCBUF8
+292     ADCBUF9
+294     ADCBUFA
+296     ADCBUFB
+298     ADCBUFC
+29A     ADCBUFD
+29C     ADCBUFE
+29E     ADCBUFF
+2A0     ADCON1
+2A2     ADCON2
+2A4     ADCON3
+2A6     ADCHS
+2A8     ADPCFG
+2AA     ADCSSL
+2C0     TRISA
+2C2     PORTA
+2C2.6   _Dig4
+2C2.7   _Dig5
+2C3.1   _Dig6
+2C3.2   _Dig1
+2C3.4   _Dig2
+2C3.5   _Dig3
+2C4     LATA
+2C6     TRISB
+2C8     PORTB
+2C9.2   _En_Diz
+2C9.3   _EN_Uni
+2CA     LATB
+2CC     TRISC
+2CE     PORTC
+2D0     LATC
+2D0.1   _LED1
+2D0.2   _LED2
+2D0.3   _LED3
+2D0.4   _LED4
+2D2     TRISD
+2D4     PORTD
+2D6.0   _Out1
+2D6     LATD
+2D6.1   _Out2
+2D6.2   _Out3
+2D6.3   _Out4
+2D6.4   _Out5
+2D6.5   _Out6
+2D6.6   _Out7
+2D6.7   _Out8
+2DE     TRISF
+2E0     PORTF
+2E2     LATF
+2E4     TRISG
+2E6     PORTG
+2E8     LATG
+300     C1RXF0SID
+302     C1RXF0EIDH
+304     C1RXF0EIDL
+308     C1RXF1SID
+30A     C1RXF1EIDH
+30C     C1RXF1EIDL
+310     C1RXF2SID
+312     C1RXF2EIDH
+314     C1RXF2EIDL
+318     C1RXF3SID
+31A     C1RXF3EIDH
+31C     C1RXF3EIDL
+320     C1RXF4SID
+322     C1RXF4EIDH
+324     C1RXF4EIDL
+328     C1RXF5SID
+32A     C1RXF5EIDH
+32C     C1RXF5EIDL
+330     C1RXM0SID
+332     C1RXM0EIDH
+334     C1RXM0EIDL
+338     C1RXM1SID
+33A     C1RXM1EIDH
+33C     C1RXM1EIDL
+340     C1TX2SID
+342     C1TX2EID
+344     C1TX2DLC
+346     C1TX2B1
+348     C1TX2B2
+34A     C1TX2B3
+34C     C1TX2B4
+34E     C1TX2CON
+350     C1TX1SID
+352     C1TX1EID
+354     C1TX1DLC
+356     C1TX1B1
+358     C1TX1B2
+35A     C1TX1B3
+35C     C1TX1B4
+35E     C1TX1CON
+360     C1TX0SID
+362     C1TX0EID
+364     C1TX0DLC
+366     C1TX0B1
+368     C1TX0B2
+36A     C1TX0B3
+36C     C1TX0B4
+36E     C1TX0CON
+370     C1RX1SID
+372     C1RX1EID
+374     C1RX1DLC
+376     C1RX1B1
+378     C1RX1B2
+37A     C1RX1B3
+37C     C1RX1B4
+37E     C1RX1CON
+380     C1RX0SID
+382     C1RX0EID
+384     C1RX0DLC
+386     C1RX0B1
+388     C1RX0B2
+38A     C1RX0B3
+38C     C1RX0B4
+38E     C1RX0CON
+390     C1CTRL
+392     C1CFG1
+394     C1CFG2
+396     C1INTF
+398     C1INTE
+39A     C1EC
+3C0     C2RXF0SID
+3C2     C2RXF0EIDH
+3C4     C2RXF0EIDL
+3C8     C2RXF1SID
+3CA     C2RXF1EIDH
+3CC     C2RXF1EIDL
+3D0     C2RXF2SID
+3D2     C2RXF2EIDH
+3D4     C2RXF2EIDL
+3D8     C2RXF3SID
+3DA     C2RXF3EIDH
+3DC     C2RXF3EIDL
+3E0     C2RXF4SID
+3E2     C2RXF4EIDH
+3E4     C2RXF4EIDL
+3E8     C2RXF5SID
+3EA     C2RXF5EIDH
+3EC     C2RXF5EIDL
+3F0     C2RXM0SID
+3F2     C2RXM0EIDH
+3F4     C2RXM0EIDL
+3F8     C2RXM1SID
+3FA     C2RXM1EIDH
+3FC     C2RXM1EIDL
+400     C2TX2SID
+402     C2TX2EID
+404     C2TX2DLC
+406     C2TX2B1
+408     C2TX2B2
+40A     C2TX2B3
+40C     C2TX2B4
+40E     C2TX2CON
+410     C2TX1SID
+412     C2TX1EID
+414     C2TX1DLC
+416     C2TX1B1
+418     C2TX1B2
+41A     C2TX1B3
+41C     C2TX1B4
+41E     C2TX1CON
+420     C2TX0SID
+422     C2TX0EID
+424     C2TX0DLC
+426     C2TX0B1
+428     C2TX0B2
+42A     C2TX0B3
+42C     C2TX0B4
+42E     C2TX0CON
+430     C2RX1SID
+432     C2RX1EID
+434     C2RX1DLC
+436     C2RX1B1
+438     C2RX1B2
+43A     C2RX1B3
+43C     C2RX1B4
+43E     C2RX1CON
+440     C2RX0SID
+442     C2RX0EID
+444     C2RX0DLC
+446     C2RX0B1
+448     C2RX0B2
+44A     C2RX0B3
+44C     C2RX0B4
+44E     C2RX0CON
+450     C2CTRL
+452     C2CFG1
+454     C2CFG2
+456     C2INTF
+458     C2INTE
+45A     C2EC
+740     RCON
+742     OSCCON
+744     OSCTUN
+760     NVMCON
+762     NVMADR
+764     NVMADRU
+766     NVMKEY
+770     PMD1
+772     PMD2
+85A.0   flag_servo
+85A.1   flagTimeOut
+85A.2   flagBaliseCheck
+85A.3   Flag_check_cratere
+85A.4   flag_depl_ok
+85A.5   Flag_Arret_Moteur
+85A.6   __Detected._Detected
+85B     toto
+85C-85D value_balise
+85E-85F nbreEssai
+860-861 Score
+862     debug1
+863     Arret_Cratere
+864-865 Time
+866     Etat_prog_gauche
+867     RoboteQ_receiveToProceed
+868-88F pas_64
+890-8B7 qas_64
+8B8-8E7 pat_64
+8E8-917 qat_64
+918-919 strtok.save
+91A-91D _Randseed
+91E-A1D RoboteQ_receiveBuffer
+A1E     RoboteQ_receiveLenght
+A1F     Timer_Arret_Moteur
+A20-A23 Vit_mot1
+A24-A27 Vit_mot2
+A28-A3B RoboteQ_values
+A3C-A3D Roboteq_test.Roboteq_erreur
+A3E-A3F Roboteq_test.erreur1
+A40-A41 Roboteq_test.erreur2
+A42-A43 Roboteq_test.erreur3
+A44-A45 Roboteq_test.erreur4
+A46-A47 Roboteq_test.erreur5
+A48-A49 Roboteq_test.erreur6
+A4A-A4B Roboteq_test.erreur7
+A4C-A4D Roboteq_test.erreur8
+A4E-A4F __Afficheur_7segments.dizaine
+A50-A51 __Afficheur_7segments.unite
+A52     __Detected.Tempo_bal
+A54-A55 @sprintf_string
+A56     MAIN.direction
+A58-A59 MAIN.value
+A5A-A5D MAIN.waiting
+A5E-A5F MAIN.tooLong
+A60-A61 MAIN.etat
+A62-A63 MAIN.etat
+A64-A65 MAIN.etat
+A66-A67 MAIN.etat
+A68-A69 MAIN.etat
+A6A-A6B MAIN.etat
+A6C-A6D MAIN.etat
+A6E-A6F MAIN.etat
+A70-A71 MAIN.etat
+A72-A73 MAIN.value
+A74-A75 MAIN.value
+A76-A77 MAIN.value
+A78-A79 MAIN.value2
+A7A-A7B MAIN.value
+A7C-A7D MAIN.value
+A7E-A81 MAIN.waiting
+A82-A83 MAIN.tooLong
+A84-A85 MAIN.etat
+A86-A87 MAIN.etat
+A88-A89 MAIN.etat
+A8A-A8B MAIN.etat
+A8C-A8D MAIN.etat
+A8E-A8F MAIN.etat
+A90-A91 MAIN.etat
+A92-A93 MAIN.etat
+A94-A95 MAIN.etat
+A96-A97 MAIN.value
+A98-A99 MAIN.value
+A9A-A9B MAIN.value
+A9C-A9D MAIN.value2
+A9E-A9F MAIN.value
+AC4-AC7 __Tourne_sur_place.angle
+AC4     driver_moteur.adresse_driver
+AC4     Balise_config_plage.no_plage
+AC4     driver_Servo_Angle.adresse_driver
+AC4     Affichage_Score.adresse_driver
+AC4-AC5 Check_balise.ack_balise
+AC4-AC7 __Avance.impulse
+AC4-AC7 __Recule.impulse
+AC4     go_driver_moteur.adresse_driver
+AC4.0   __Check_commande_atteint.comm_atteinte_m1
+AC4.1   __Check_commande_atteint.comm_atteinte_m2
+AC5     go_driver_moteur.direction
+AC5     driver_Servo_Angle.Servo
+AC5     driver_moteur.Ordre
+AC5     Affichage_Score.Total
+AC5     Balise_config_plage.deb_plage
+AC6     go_driver_moteur.mode_regulation
+AC6-AC7 driver_Servo_Angle.AngleMax
+AC6     __CheckVitMoteur.i
+AC6     __Afficheur_7segments.nombre
+AC6     Balise_config_plage.fin_plage
+AC7     __CheckVitMoteur.j
+AC7     __Afficheur_7segments.ToBlank
+AC7     go_driver_moteur.mode_arret
+AC8-AC9 atol.s
+AC8-ACB __Tourne_sur_place.vitesse
+AC8-ACB __Recule.vitesse
+AC8-ACB __Avance.vitesse
+AC8-AC9 go_driver_moteur.parametre_1
+AC8-AC9 driver_Servo_Angle.angle
+ACA-ACD atol.result
+ACA-ACD go_driver_moteur.parametre_2
+ACC-ACF __Tourne_sur_place.impulsion_tot
+ACE     go_driver_moteur.val1
+ACE-ACF atol.sign
+ACF     go_driver_moteur.val2
+AD0-AD3 __Tourne_sur_place.impulse_g
+AD0     go_driver_moteur.val3
+AD0-AD1 atol.base
+AD1     go_driver_moteur.val4
+AD2-AD3 atol.index
+AD2     go_driver_moteur.val5
+AD3     go_driver_moteur.val6
+AD4-AD7 __Tourne_sur_place.impulse_d
+AD4     go_driver_moteur.config
+AD4     atol.c
+AD4     Balise_set_plage.select_plage
+AD8-ADC __Tourne_sur_place.vitesse_string
+B40     RDA_isr.myChar
+2400-27FF Stack
+
+ROM Allocation:
+000100  @const1240.call
+000112  @const1244.call
+000124  @const1257.call
+00013C  @const1270.call
+00014E  @const1271.call
+00016C  @const1275.call
+00018C  @const1289.call
+0001AE  @const1290.call
+0001CE  @const1364.call
+0001EE  @const1365.call
+000210  @const1366.call
+000232  @const1379.call
+000252  @const1380.call
+000274  @const1383.call
+000294  @const1386.call
+0002B6  @const1387.call
+0002D2  @const1388.call
+0002F4  @const1389.call
+000314  @const1395.call
+000334  @const1396.call
+000356  @const1399.call
+000376  @const1400.call
+000398  @const1401.call
+0003BA  @const1414.call
+0003DA  @const1415.call
+0003FC  @const1418.call
+00041C  @const1419.call
+00043E  @const1431.call
+00045E  @const1432.call
+000480  RDA_isr
+0004C4  TIMER1_isr
+00051E  TIMER3_isr
+000542  @I2C_WRITEU_1
+00055A  Balise_config_plage
+0005A6  @delay_ms1
+0005BA  __Init_dsPIC
+00062C  driver_Servo_Angle
+000698  __Afficheur_7segments
+0006EC  Affichage_Score
+00073C  Balise_set_plage
+000776  @DIV3232B
+0007BA  @PRINTFU32_115200_5891_5890
+000882  __Avance
+000948  @MULS3232
+00098A  atol
+000B80  __CheckVitMoteur
+000C72  __Check_commande_atteint
+000D50  __Recule
+000E16  go_driver_moteur
+000ED6  driver_moteur
+000F30  @SPRINTF
+000F3E  @PRINTFU32_1284
+001012  @DIVS3232A
+001090  @PRINTFD32_115200_5891_5890
+0011A4  __Tourne_sur_place
+0012C4  __TimeOut
+0012E6  @I2C_READU_1
+001310  Check_balise
+001354  __Detected
+0013E6  @cinit1
+0013E6  MAIN
+00144E  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    N:\PititRobot\Eurobot2018\Prog\10_Carte principale\
+
+Project Files:
+    main.c                                                  [20-sept.-18 09:40  CRC=C3A15356]
+    30F6014A.h                                              [05-févr.-16 12:06  CRC=F9067ECE]
+    DSPIC30F_registers.h                                    [23-mars-16 18:51  CRC=D32EEAEF]
+    C:\Program Files (x86)\PICC\drivers\math.h              [28-sept.-12 11:35  CRC=546412C9]
+    stdlib.h                                                [08-juin-11 14:39  CRC=0B6669CF]
+    C:\Program Files (x86)\PICC\drivers\stddef.h            [16-juil.-10 09:27  CRC=897CEC6C]
+    C:\Program Files (x86)\PICC\drivers\string.h            [14-juil.-11 10:13  CRC=23EDEC8F]
+    C:\Program Files (x86)\PICC\drivers\ctype.h             [03-janv.-08 13:55  CRC=2D1F019F]
+    Functions.h                                             [28-mars-18 13:07  CRC=4ADED6DA]
+    Com_balises.c                                           [12-avr.-18 14:01  CRC=DA2CBD7C]
+    Init.c                                                  [12-avr.-18 15:00  CRC=3925308F]
+    CommRoboteQ.c                                           [23-mai-17 14:34  CRC=5FB2BA03]
+    Functions.c                                             [12-avr.-18 15:41  CRC=7C30937A]
+    driver_moteur.c                                         [24-mars-16 08:36  CRC=AE01C0D3]
+
+Source signature=6042A84D
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      DSPIC30F6014A
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: SIGNED: 8,16,32
+    Float,Double:   32,64
+    ICD Provisions: Yes
+
+Output Files:
+    Errors:      main.err
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
