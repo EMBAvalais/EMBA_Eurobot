@@ -1,0 +1,451 @@
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\table.png
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Debug\table.png
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\table.png
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\table.png
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\bin\Debug\table.png
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+D:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\bin\Debug\table.png
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+N:\Années\2015 - Robotmovies\Programmation\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\bin\Debug\table.png
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\bin\Debug\table.png
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Student\Desktop\Eurobot2016_Prendre PC\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\bin\Debug\table.png
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Me\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\PC\Eurobot\bin\Debug\table.png
+C:\Users\Student\Desktop\PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Student\Desktop\PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Me\Desktop\PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Me\Desktop\PC\Eurobot\bin\Debug\table.png
+C:\Users\Me\Desktop\PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Me\Desktop\PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Me\Desktop\PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Me\Desktop\PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+C:\Users\Me\Desktop\PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.exe.config
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.exe
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.pdb
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\table.png
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.exe
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.pdb
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+N:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\table.png
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.exe.config
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.exe
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.pdb
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\table.png
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.exe
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Eurobot.pdb
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+H:\A prendre Eurobot 24.04.16\PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\bin\Debug\Eurobot.exe.config
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.exe
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.pdb
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\bin\Debug\table.png
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\bin\Debug\Eurobot.exe
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\bin\Debug\Eurobot.pdb
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+H:\Eurobot\New_ModifIIC_Balise_Errors\PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.exe
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\table.png
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.exe
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+E:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.exe
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\table.png
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.exe
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+D:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.exe
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\table.png
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.exe
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+R:\Années\2016 - BeachBot\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\bin\Debug\table.png
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.EEPROM.resources
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\Electronique\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\bin\Debug\table.png
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+N:\Eurobot 2017\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.exe
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+N:\Eurobot 2017\70_PC\Eurobot\bin\Debug\table.png
+N:\Eurobot 2017\70_PC\Eurobot\bin\Debug\Eurobot.exe
+N:\Eurobot 2017\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+N:\Eurobot 2017\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+N:\Eurobot 2017\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+N:\Eurobot 2017\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+F:\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+F:\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+F:\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+F:\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+F:\70_PC\Eurobot\obj\Debug\Eurobot.exe
+F:\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+F:\70_PC\Eurobot\bin\Debug\table.png
+F:\70_PC\Eurobot\bin\Debug\Eurobot.exe
+F:\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+F:\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+F:\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+F:\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+F:\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+F:\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+F:\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+F:\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+F:\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\bin\Debug\table.png
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+C:\Users\Rémy\Desktop\6.4.2017\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+F:\Pc_gestion adversaire\Eurobot\bin\Debug\Eurobot.exe.config
+F:\Pc_gestion adversaire\Eurobot\obj\Debug\Interop.WMPLib.dll
+F:\Pc_gestion adversaire\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+F:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+F:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.exe
+F:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.pdb
+E:\Pc_gestion adversaire\Eurobot\bin\Debug\Eurobot.exe.config
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Interop.WMPLib.dll
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.exe
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.pdb
+E:\Pc_gestion adversaire\Eurobot\bin\Debug\table.png
+E:\Pc_gestion adversaire\Eurobot\bin\Debug\Eurobot.exe
+E:\Pc_gestion adversaire\Eurobot\bin\Debug\Eurobot.pdb
+E:\Pc_gestion adversaire\Eurobot\bin\Debug\Interop.WMPLib.dll
+E:\Pc_gestion adversaire\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.Form1.resources
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+E:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+D:\Pc_gestion adversaire\Eurobot\bin\Debug\Eurobot.exe.config
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Interop.WMPLib.dll
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.exe
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.pdb
+D:\Pc_gestion adversaire\Eurobot\bin\Debug\table.png
+D:\Pc_gestion adversaire\Eurobot\bin\Debug\Eurobot.exe
+D:\Pc_gestion adversaire\Eurobot\bin\Debug\Eurobot.pdb
+D:\Pc_gestion adversaire\Eurobot\bin\Debug\Interop.WMPLib.dll
+D:\Pc_gestion adversaire\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.Form1.resources
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+D:\Pc_gestion adversaire\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.exe
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\table.png
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\Eurobot.exe
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+D:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.exe
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\table.png
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\Eurobot.exe
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+F:\Années\2017 - MoonVillage\Programmation\Grand robot\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Debug\Eurobot.exe.config
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.exe
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Debug\table.png
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Debug\Eurobot.exe
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Debug\Eurobot.pdb
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Debug\Interop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.Form1.resources
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Debug\Eurobot.csproj.GenerateResource.Cache

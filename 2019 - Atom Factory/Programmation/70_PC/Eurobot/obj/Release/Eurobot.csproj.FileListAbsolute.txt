@@ -1,0 +1,163 @@
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\bin\Release\table.png
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\obj\Release\Eurobot.g.resources
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\obj\Release\Eurobot.Form1.resources
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\obj\Release\Eurobot.exe
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\obj\Release\Eurobot.pdb
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\bin\Release\Eurobot.exe.config
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\bin\Release\Eurobot.exe
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\bin\Release\Eurobot.pdb
+C:\Users\Jonathan\Desktop\Eurobot\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.exe.config
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.exe
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.pdb
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\table.png
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.exe
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.pdb
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.Form1.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\bin\Release\Eurobot.exe.config
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\obj\Release\Eurobot.exe
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\obj\Release\Eurobot.pdb
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\bin\Release\table.png
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\bin\Release\Eurobot.exe
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\bin\Release\Eurobot.pdb
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\obj\Release\Eurobot.g.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\obj\Release\Eurobot.Form1.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\_backup_VersionSimplifiee\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\bin\Release\Eurobot.exe.config
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\obj\Release\Eurobot.exe
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\obj\Release\Eurobot.pdb
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\bin\Release\table.png
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\bin\Release\Eurobot.exe
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\bin\Release\Eurobot.pdb
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\obj\Release\Eurobot.g.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\obj\Release\Eurobot.Form1.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+L:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC 2\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Release\Eurobot.exe.config
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\Eurobot.exe
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\Eurobot.pdb
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Release\table.png
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Release\Eurobot.exe
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\bin\Release\Eurobot.pdb
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\Eurobot.Form1.resources
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.exe.config
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.exe
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.pdb
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\table.png
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.exe
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.pdb
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.Form1.resources
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+F:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.exe.config
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.exe
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.pdb
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\table.png
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.exe
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\bin\Release\Eurobot.pdb
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.Form1.resources
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+H:\stage\1.Taches\1.Eurobot-2015\Programmation\Eurobot PC\Eurobot\obj\Release\Eurobot.EEPROM.resources
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\bin\Release\Eurobot.exe.config
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Release\Eurobot.exe
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Release\Eurobot.pdb
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\bin\Release\table.png
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\bin\Release\Eurobot.exe
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\bin\Release\Eurobot.pdb
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Release\Eurobot.EEPROM.resources
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Release\Eurobot.Form1.resources
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Me\Desktop\Eurobot2016\Eurobot PC\Eurobot\obj\Release\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Eurobot PC\Eurobot\obj\Release\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Release\Eurobot.exe.config
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Interop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.exe
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.pdb
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Release\table.png
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Release\Eurobot.exe
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Release\Eurobot.pdb
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Release\Interop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC\Eurobot\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.Form1.resources
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\70_PC\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\bin\Release\Eurobot.exe.config
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Interop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.exe
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.pdb
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\bin\Release\table.png
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\bin\Release\Eurobot.exe
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\bin\Release\Eurobot.pdb
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\bin\Release\Interop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.Form1.resources
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\bin\Release\Eurobot.exe.config
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.exe
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.pdb
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\bin\Release\table.png
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\bin\Release\Eurobot.exe
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\bin\Release\Eurobot.pdb
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\bin\Release\Interop.WMPLib.dll
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.Form1.resources
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.RoboteQ.resources
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.SettingsDriverMot.resources
+C:\Users\Student\Desktop\Code divers\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+D:\Années\2018 - Robot Cities\Programmation\Grand robot\70_PC - Image modifiee\Eurobot\bin\Release\Eurobot.exe.config
+D:\Années\2018 - Robot Cities\Programmation\Grand robot\70_PC - Image modifiee\Eurobot\obj\Release\Interop.WMPLib.dll
+D:\Années\2018 - Robot Cities\Programmation\Grand robot\70_PC - Image modifiee\Eurobot\obj\Release\AxInterop.WMPLib.dll
+D:\Années\2018 - Robot Cities\Programmation\Grand robot\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.csproj.ResolveComReference.cache
+D:\Années\2018 - Robot Cities\Programmation\Grand robot\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.exe
+D:\Années\2018 - Robot Cities\Programmation\Grand robot\70_PC - Image modifiee\Eurobot\obj\Release\Eurobot.pdb
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\bin\Release\Eurobot.exe.config
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Interop.WMPLib.dll
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\AxInterop.WMPLib.dll
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.csproj.ResolveComReference.cache
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.exe
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.pdb
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\bin\Release\table.png
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.csprojResolveAssemblyReference.cache
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.Form1.resources
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.Properties.Resources.resources
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.RoboteQ.resources
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.SettingsDriverMot.resources
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\obj\Release\Eurobot.csproj.GenerateResource.Cache
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\bin\Release\Eurobot.exe
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\bin\Release\Eurobot.pdb
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\bin\Release\Interop.WMPLib.dll
+F:\Années\2019 - Atom Factory\Programmation\70_PC\Eurobot\bin\Release\AxInterop.WMPLib.dll
